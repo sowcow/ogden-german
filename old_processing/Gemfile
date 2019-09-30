@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'incrementalist', path: '../../ruby/incrementalist'
+gem 'mongo', '~> 2.10'

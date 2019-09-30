@@ -1,0 +1,5129 @@
+---
+come:
+- word: eingekehrt
+- word: komm
+- word: kommen
+- word: kommen
+get:
+- word: bringen
+- word: erhalten
+- word: holen
+- word: holen/bringen
+- word: lesen
+- word: sich etwas besorgen
+give:
+- word: eingeben
+- word: geben
+to go:
+- word: arbeiten
+- word: funktionieren
+- word: führen
+- word: gehen
+to keep:
+- word: aufbewahren
+- word: aufhalten
+- word: behalten
+- word: halten
+let:
+- word: vermieten
+- word: erlauben
+- word: lassen
+- word: zulassen
+- word: vermieten
+make:
+- word: anfertigen
+- word: Fabrikat
+  gender: n
+- word: Herstellung
+  gender: f
+- word: Marke
+  gender: f
+put:
+- word: legen
+seem:
+- word: Anschein
+  gender: m
+- word: erscheint
+take:
+- word: einnehmen
+- word: man nehme
+- word: nehmen
+to be:
+- word: sich befinden
+- word: sich fühlen
+- word: sein
+to do:
+- word: ausführen
+- word: tun
+- word: tun
+to have:
+- word: haben
+say:
+- word: besage
+- word: sagen
+see:
+- word: siehe
+to send:
+- word: abschicken
+- word: befördern
+- word: schicken
+- word: senden
+may:
+- word: darf
+- word: kann
+- word: mag
+- word: Mai
+  gender: m
+will:
+- word: werden (Zukunft)
+- word: Wille
+  gender: m
+about:
+- word: benachrichtigen
+- word: etwa
+- word: gegen
+- word: Sorge  (wegen
+- word: um)
+  gender: f
+- word: um...
+- word: ungefähr
+- word: Unruhe
+  gender: f
+- word: unterrichten (von
+- word: über
+- word: froh (über)
+- word: glücklich (über)
+- word: Information  (über)
+- word: prahlen (mit)
+- word: zweifeln (an)
+across:
+- word: durch
+- word: herüber
+- word: hinüber
+- word: jenseits
+- word: kreuzweise
+- word: quer
+- word: quer durch
+- word: über
+- word: über verschiedene
+after:
+- word: gemäß
+- word: hinter
+- word: Hinter...
+- word: nach
+- word: nachdem
+- word: nachher
+- word: sich sehnen (nach)
+against:
+- word: auflehnte
+- word: dagegen
+- word: ferner
+- word: gegen
+- word: wieder
+- word: wieder(um)
+- word: wetteifern (mit)
+among:
+- word: mitten unter
+- word: unter
+- word: zwischen
+at:
+- word: an
+- word: auf
+- word: bei
+- word: im
+- word: in
+- word: um
+- word: zu
+- word: über
+before:
+- word: bevor
+- word: ehe
+- word: vor
+- word: voran
+- word: vorher
+- word: vorn
+between:
+- word: dazwischen
+- word: unter
+- word: zwischen
+by:
+- word: an
+- word: bei
+- word: bis
+- word: durch
+- word: neben
+- word: von
+- word: über
+- word: dicht (an)
+- word: nahe
+down:
+- word: abwärts
+- word: herab
+- word: herunter
+- word: hinab
+- word: hinunter
+- word: nieder
+- word: rückwärts
+- word: unten
+- word: zusammengebrochen
+from:
+- word: aus
+- word: von
+- word: vor
+- word: bewachen (vor)
+- word: durch)
+- word: Nutzen ziehen (aus)
+- word: sterben (an)
+- word: Vorteil haben (von
+- word: erwarten
+  category: von
+in:
+- word: an
+- word: auf
+- word: hinein
+- word: in
+'off':
+- word: aus
+- word: ausgeschaltet
+- word: entfernt
+- word: fort
+- word: von
+- word: weg
+'on':
+- word: benachrichtigen
+- word: blicken (auf
+- word: nach)
+- word: sehen
+- word: unterrichten (von
+- word: über)
+- word: an
+- word: auf
+- word: bei
+- word: eingeschaltet
+- word: in
+- word: nach
+- word: über
+over:
+- word: aus
+- word: herüber
+- word: hinüber
+- word: vorbei
+- word: über
+- word: übermäßig
+- word: ausflippen (bei)
+- word: begeistert (von)
+- word: begeistert sein (für)
+- word: betrauern
+- word: enthusiastisch
+- word: entzückt
+- word: für)
+- word: hingerissen sein (von)
+- word: in Verzückung geraten (über)
+- word: schwärmen (von
+- word: sich (insgeheim) freuen (über)
+- word: trauern (um) (über)
+through:
+- word: durch
+- word: durch...
+- word: hindurch
+- word: räumlich
+- word: zu Ende
+to:
+- word: an
+- word: auf
+- word: nach
+- word: zu
+- word: ungünstig (für)
+- word: von)
+- word: überreden
+- word: überzeugen (zu
+under:
+- word: darunter
+- word: hinunter
+- word: unten
+- word: unter
+- word: ermutigen
+- word: sich behaupten (gegen)
+up:
+- word: auf
+- word: aufwärts
+- word: hinauf
+- word: hoch
+- word: oben
+with:
+- word: mit
+- word: Ankopplung  (an)
+  gender: f
+as:
+- word: als
+- word: da
+- word: ebenso/allso
+- word: obgleich
+- word: so
+- word: weil
+- word: wie
+- word: während
+for:
+- word: als
+- word: denn
+- word: für
+- word: nach
+- word: zu
+- word: begierig (auf
+- word: dringende Bitte  (an
+  gender: f
+- word: eifrig
+- word: nach)
+- word: Sorge  (wegen
+  gender: f
+- word: um)
+- word: Unruhe
+  gender: f
+- word: besorgt
+  category: um
+- word: ängstlich
+of:
+- word: aus
+- word: von
+- word: vor
+- word: über
+till:
+- word: bis
+- word: bis (zu)
+- word: bis in
+- word: bis zu
+than:
+- word: als
+a:
+- word: ein
+the:
+- word: das
+- word: der
+- word: die
+all:
+- word: all
+- word: alle
+- word: ganz
+- word: jeder
+- word: sämtliche
+any:
+- word: beliebig
+- word: ein/beliebige
+- word: einer
+- word: irgend etwas
+- word: irgendein
+- word: irgendeiner
+- word: irgendwelch
+- word: irgendwelche
+- word: jede
+- word: jeder
+every:
+- word: alle
+- word: jeder
+little:
+- word: klein
+- word: wenig
+much:
+- word: sehr
+  category: adv
+- word: viel
+- word: viel
+  category: adj
+'no':
+- word: aber nein
+- word: kein
+- word: keine
+- word: keiner
+- word: keines
+- word: nein
+- word: nicht
+- word: Nr.
+other:
+- word: andere
+- word: anderer
+- word: anderes
+- word: zusätzlich
+some:
+- word: einige
+- word: irgendein
+- word: irgendetwas
+- word: manche
+such:
+- word: derartig
+- word: solch
+- word: solche
+- word: solcher
+- word: solches
+that:
+- word: da
+- word: damalig
+- word: das
+- word: dasjenige
+- word: dass
+- word: derjenige
+- word: diejenige
+- word: dies
+- word: weil
+- word: welche
+- word: welcher
+- word: welches
+this:
+- word: diese
+- word: dieser
+- word: dieses
+I:
+- word: ich
+he:
+- word: er
+you:
+- word: du
+- word: du bist
+- word: euch
+- word: Ihnen
+- word: ihr
+- word: ihr seid
+- word: Ihrer
+- word: man
+- word: Sie
+- word: sie sind
+- word: wir sind
+who:
+- word: das
+- word: der
+- word: die
+- word: welche
+- word: welcher
+- word: welches
+- word: wer
+- word: wer?
+and:
+- word: sowohl
+- word: und
+because:
+- word: wegen
+- word: weil
+but:
+- word: aber
+- word: ohne dass
+- word: sondern
+or:
+- word: oder
+if:
+- word: falls
+- word: ob
+- word: wenn
+- word: wenn/ob
+though:
+- word: obgleich
+- word: obschon
+- word: obwohl
+- word: Das ist aber (durchaus / dennoch) schön.
+while:
+- word: solange als
+- word: Weile
+  gender: f
+- word: während
+- word: während
+  category: cj.
+- word: Zeitspanne
+  gender: f
+how:
+- word: inwiefern
+- word: wie?
+when:
+- word: als
+- word: sobald
+- word: wann
+- word: wenn
+- word: während
+where:
+- word: wo
+- word: wo?
+- word: wohin
+why:
+- word: aber ja
+- word: aber nein
+- word: warum
+- word: weshalb
+again:
+- word: abermals
+- word: ferner
+- word: nochmals
+- word: wieder
+ever:
+- word: je
+- word: jemals
+far:
+- word: fern
+- word: weit
+forward:
+- word: dreist
+- word: fortschrittlich
+- word: nach vorn
+- word: Stürmer  (Sport)
+- word: vorlaut
+- word: vorwärts
+- word: Vorwärts...
+here:
+- word: da
+- word: hier
+near:
+- word: nahe
+now:
+- word: eben
+- word: jetzt
+- word: nun
+out:
+- word: aus
+- word: auswärts
+- word: außerhalb
+- word: heraus
+- word: hinaus
+still:
+- word: dennoch
+- word: doch
+- word: immer noch
+- word: nach wie vor
+- word: noch
+- word: ruhig
+- word: still
+- word: unbewegt
+then:
+- word: als
+- word: damalig
+- word: dann
+- word: derzeitig (damalig)
+- word: folglich
+there:
+- word: da
+- word: dort
+- word: dorthin
+together:
+- word: gemeinsam
+- word: miteinander
+- word: zesammen
+- word: zugleich
+- word: zusammen
+well:
+- word: Brunnen
+- word: gesund
+- word: gut
+- word: gänzlich
+- word: wohl
+- word: Nein
+- word: so was!
+- word: gänzlich
+- word: nun!
+- word: wohl
+almost:
+- word: beinahe
+- word: fast
+- word: meist
+- word: nahezu
+enough:
+- word: genug
+- word: hinreichend
+even:
+- word: eben
+- word: gerade
+- word: Gerade
+  gender: f
+- word: gerade
+- word: gerade (Zahl)
+- word: gerade
+  category: math.
+- word: gleichmäßig
+- word: selbst
+- word: sogar
+not:
+- word: nicht
+only:
+- word: einzig
+- word: nur
+quite:
+- word: ganz
+- word: recht
+- word: ziemlich
+so:
+- word: also
+- word: daher
+- word: so
+very:
+- word: sehr
+- word: wirklich
+tomorrow:
+- word: morgen
+yesterday:
+- word: gestern
+north:
+- word: Nord
+- word: Norden
+  gender: m
+- word: nördlich
+south:
+- word: nach Süden
+- word: Süd
+- word: Süden
+- word: südlich
+east:
+- word: Orient
+  gender: m
+- word: Ost
+- word: Osten
+  gender: m
+- word: östlich
+west:
+- word: Westen
+please:
+- word: bitte
+- word: Bitte
+  gender: f
+- word: bitte
+- word: hier herein
+- word: nehmen Sie Platz
+'yes':
+- word: aber ja
+- word: ja
+- word: jawohl
+account:
+- word: Berechnung
+  gender: f
+- word: Bericht
+  gender: m
+- word: Forderung
+  gender: f
+- word: Konto
+  gender: n
+- word: Rechnung
+  gender: f
+- word: Ursache
+  gender: f
+- word: Wert
+  gender: m
+act:
+- word: Akt
+  gender: m
+- word: Gesetz
+  gender: n
+- word: Pose
+  gender: f
+- word: Tat
+  gender: f
+addition:
+- word: Addition
+  gender: f
+- word: Addition
+  gender: f
+  category: math.
+- word: Hinzufügung
+- word: Nachtrag
+  gender: m
+- word: Zusatz
+  gender: m
+adjustment:
+- word: Adaptierung
+  gender: f
+- word: Anordnung
+  gender: f
+- word: Anpassung
+  gender: f
+- word: Berichtigung
+  gender: f
+- word: Einstellung
+  gender: f
+- word: Justierung
+  gender: f
+advertisement:
+- word: Ankündigung
+- word: Anzeige
+  gender: f
+- word: Reklame
+  gender: f
+agreement:
+- word: Abkommen
+  gender: n
+- word: Verabredung
+  gender: f
+- word: Vereinbarung
+  gender: f
+- word: Vertrag
+  gender: m
+- word: Zustimmung
+  gender: f
+- word: Übereinstimmung
+  gender: f
+air:
+- word: Aussehen
+  gender: n
+- word: Lied
+  gender: n
+- word: Luft
+  gender: f
+- word: Miene
+  gender: f
+- word: Pose
+  gender: f
+- word: Weise <m;f>
+amount:
+- word: Betrag
+  gender: m
+- word: Menge
+  gender: f
+- word: Summe
+  gender: f
+amusement:
+- word: Belustigung
+  gender: f
+- word: Unterhaltung
+  gender: f
+- word: Vergnügung
+animal:
+- word: Tier
+  gender: n
+answer:
+- word: Antwort
+  gender: f
+- word: Lösung
+apparatus:
+- word: Apparat
+  gender: m
+- word: Ausrüstung
+approval:
+- word: Billigung
+  gender: f
+- word: Genehmigung
+  gender: f
+- word: Zulassung
+  gender: f
+argument:
+- word: argument
+- word: Argument
+  gender: n
+- word: Auseinandersetzung
+  gender: f
+- word: Beweis
+  gender: m
+- word: Diskussion
+  gender: f
+- word: Wortwechsel
+  gender: m
+art:
+- word: Kunst
+  gender: f
+- word: Kunstfertigkeit
+  gender: f
+attack:
+- word: Anfall
+  gender: m
+- word: Angriff
+  gender: m
+attempt:
+- word: Unternehmung
+  gender: f
+- word: Versuch
+  gender: m
+attention:
+- word: Achtung
+  gender: f
+- word: Aufmerksamkeit
+  gender: f
+- word: Vorsicht
+  gender: f
+- word: Wartung
+  gender: f
+attraction:
+- word: Anziehung
+  gender: f
+- word: Anziehungskraft
+  gender: f
+- word: Anziehungspunkt
+  gender: m
+- word: Attraktion
+  gender: f
+authority:
+- word: Amtsbefugnis
+  gender: f
+- word: Autorität
+back:
+- word: Heck
+  gender: n
+- word: Kehrseite
+  gender: f
+- word: retour
+- word: Rücken
+- word: Rückseite
+- word: zurück
+balance:
+- word: Ausgewogenheit
+  gender: f
+- word: Bilanz
+  gender: f
+- word: Gleichgewicht
+  gender: n
+- word: Guthaben
+  gender: n
+- word: Saldo
+  gender: n
+- word: Unruh  (der Uhr)
+  gender: f
+- word: Waage
+  gender: f
+base:
+- word: Basis
+  gender: f
+- word: Grund
+  gender: m
+- word: Grundzahl
+  gender: f
+- word: Sockel
+- word: Stützpunkt
+- word: Unterlage
+  gender: f
+behavior:
+- word: Benehmen
+  gender: n
+- word: benehmen
+- word: Betragen
+  gender: n
+- word: Verhalten
+to belief:
+- word: glauben
+birth:
+- word: Geburt
+  gender: f
+- word: Geburtsstunde
+  gender: f
+- word: Herkunft
+  gender: f
+- word: Ursprung
+  gender: m
+bit:
+- word: bisschen
+- word: Bissen
+  gender: m
+- word: Bit
+  gender: n
+- word: Gebiss
+  gender: n
+bite:
+- word: Beißen
+- word: Biss
+  gender: m
+- word: Bissen
+  gender: m
+- word: Fassen
+  gender: n
+- word: Greifen
+  gender: n
+- word: Happen
+  gender: m
+- word: Stich  (Mücken-)
+blood:
+- word: Blut
+  gender: n
+blow:
+- word: Hieb
+  gender: m
+- word: Schlag
+  gender: m
+body:
+- word: Karosserie
+  gender: f
+- word: Komitee
+  gender: n
+- word: Körper
+- word: Leib
+  gender: m
+- word: Leiche
+  gender: f
+- word: Rumpf
+  gender: m
+brass:
+- word: Blechbläser
+- word: Messing
+  gender: n
+bread:
+- word: Brot
+  gender: n
+- word: panieren
+breath:
+- word: Atem
+  gender: m
+- word: Atemzug
+  gender: m
+- word: Hauch
+  gender: m
+brother:
+- word: Bruder
+  gender: m
+- word: Kollege
+  gender: m
+building:
+- word: Bau
+  gender: m
+- word: Bauwerk
+  gender: n
+- word: bildend
+- word: Erstellung
+  gender: f
+- word: Gebäude
+burn:
+- word: Brandwunde
+  gender: f
+- word: Zündung
+burst:
+- word: Bruch
+  gender: m
+- word: Explosion
+  gender: f
+- word: Häufung
+- word: bersten
+- word: brechen
+- word: platzen
+- word: zerspringen
+- word: zum Platzen bringen
+business:
+- word: Angelegenheit
+  gender: f
+- word: Geschäft
+- word: geschäftlich
+- word: Problem
+  gender: n
+- word: Sache
+  gender: f
+butter:
+- word: Butter
+  gender: f
+- word: mit Butter bestreichen
+canvas:
+- word: Segel
+- word: Segeltuch
+  gender: n
+- word: Zelttuch
+  gender: n
+care:
+- word: Behandlung
+  gender: f
+- word: Pflege
+  gender: f
+- word: Sorge
+  gender: f
+- word: Sorgfalt
+  gender: m
+- word: Sorgfältigkeit
+cause:
+- word: Anlass
+  gender: m
+- word: Grund
+  gender: m
+- word: Sache
+  gender: f
+- word: Ursache
+  gender: f
+- word: Verursachen
+  gender: n
+chalk:
+- word: Kreide
+  gender: f
+chance:
+- word: Chance
+  gender: n
+- word: Gelegenheit
+  gender: f
+- word: Möglichkeit
+- word: Zufall
+  gender: m
+change:
+- word: Abwechslung
+  gender: f
+- word: Kleingeld
+  gender: n
+- word: Veränderung
+- word: Wechsel
+- word: Wechselgeld
+  gender: n
+- word: Änderung
+cloth:
+- word: Stoff
+  gender: m
+- word: Tischtuch
+  gender: n
+- word: Tuch
+  gender: n
+coal:
+- word: Kohle
+  gender: f
+- word: Steinkohle
+  gender: f
+color:
+- word: Farbe
+  gender: f
+comfort:
+- word: Bequemlichkeit
+  gender: f
+- word: Komfort
+  gender: m
+- word: Lichtblick
+  gender: m
+- word: Trost
+  gender: m
+committee:
+- word: Ausschuss
+  gender: m
+- word: Komitee
+  gender: n
+company:
+- word: Firma
+  gender: m
+- word: Gesellschaft
+  gender: f
+- word: Kompanie
+  gender: f
+- word: Unternehmen
+  gender: n
+comparison:
+- word: Vergleich
+  gender: m
+competition:
+- word: Konkurrent
+  gender: m
+- word: Konkurrenz
+  gender: f
+- word: Wettbewerb
+  gender: m
+condition:
+- word: Auflage
+  gender: f
+- word: Bedingung
+  gender: f
+- word: Stellung
+  gender: f
+- word: Voraussetzung
+  gender: f
+- word: Zustand
+  gender: m
+connection:
+- word: Anschluss
+  gender: m
+- word: Anschlussstück
+- word: Verbindung
+  gender: f
+- word: Zusammenhang
+  gender: m
+control:
+- word: Bedienungselement
+  gender: n
+- word: Beherrschung
+  gender: f
+- word: Kontrolle
+  gender: f
+- word: Lenkung
+  gender: f
+- word: Steuerung
+  gender: f
+cook:
+- word: Koch
+  gender: m
+- word: Köchin
+copper:
+- word: Kupfer
+  gender: n
+copy:
+- word: Abbild
+  gender: n
+- word: Abschrift
+  gender: f
+- word: Exemplar
+  gender: n
+- word: Kopie
+  gender: f
+- word: Manuscript
+  gender: n
+- word: Zweitschrift
+  gender: f
+cork:
+- word: Kork
+  gender: m
+- word: Korken
+  gender: m
+- word: Pfropfen
+  gender: m
+cotton:
+- word: Baumwolle
+  gender: f
+- word: Garn
+  gender: n
+- word: Nähfaden
+cough:
+- word: Husten
+  gender: n
+country:
+- word: Gegend
+  gender: f
+- word: Land
+  gender: n
+- word: Staat
+  gender: m
+cover:
+- word: Abdeckung
+  gender: f
+- word: Decke
+  gender: f
+- word: Deckel
+- word: Hülle
+- word: Schutz
+  gender: m
+- word: Titel
+- word: Zeitungsmantel
+  gender: m
+- word: Überzug
+crack:
+- word: Knall
+  gender: m
+- word: Riss
+  gender: m
+- word: Sprung
+  gender: m
+credit:
+- word: Ansehen
+  gender: n
+- word: Darlehen
+  gender: n
+- word: Kredit
+  gender: m
+crime:
+- word: Untat
+  gender: f
+- word: Verbrechen
+to crush:
+- word: ausdrücken
+- word: erdrücken
+- word: vernichten
+- word: zerdrücken
+- word: zerquetschen
+cry:
+- word: Ruf
+  gender: m
+- word: Schrei
+  gender: m
+current:
+- word: aktuell
+- word: derzeitig (jetzig)
+- word: gegenwärtig
+- word: geläufig
+- word: jetzig
+- word: Lauf
+  gender: m
+- word: laufend
+- word: momentan
+- word: Strom
+  gender: m
+- word: Strömung
+curve:
+- word: Krümmung
+- word: Kurve
+  gender: f
+- word: Kurve
+  gender: f
+  category: math.
+- word: Linie
+  gender: f
+damage:
+- word: Beschädigung
+- word: Schaden
+  gender: m
+danger:
+- word: Gefahr
+  gender: f
+daughter:
+- word: Tochter
+  gender: f
+day:
+- word: Tag
+  gender: m
+death:
+- word: Tod
+  gender: m
+- word: Todesfälle
+debt:
+- word: Schuld
+  gender: f
+- word: Verpflichtung
+  gender: f
+decision:
+- word: Beschluss
+  gender: m
+- word: Entscheidung
+  gender: f
+- word: Entschluss
+  gender: m
+- word: Urteil
+  gender: n
+degree:
+- word: Grad
+  gender: m
+- word: Grad
+  gender: m
+  category: math.
+- word: Maß
+- word: Rang
+  gender: m
+- word: Stufe
+  gender: f
+design:
+- word: Entwurf
+  gender: m
+- word: Konstruktion
+  gender: f
+- word: Planung
+  gender: f
+to desire:
+- word: begehren
+- word: wünschen
+destruction:
+- word: Vernichtung
+  gender: f
+- word: Verwüstung
+- word: Zerstörung
+detail:
+- word: Detail
+  gender: n
+- word: Einzelheit
+  gender: f
+- word: Teil
+  gender: n
+- word: zuteilen
+- word: zuweisen
+development:
+- word: Ausarbeitung
+  gender: f
+- word: Bildung  (Entwicklung)
+  gender: f
+- word: Entfaltung
+  gender: f
+- word: Entstehung
+  gender: f
+- word: Entwicklung
+  gender: f
+- word: Erschließung
+- word: Werdegang
+  gender: m
+digestion:
+- word: Verdauung
+  gender: f
+direction:
+- word: Anweisung
+  gender: f
+- word: Leitung
+  gender: f
+- word: Regie  (Film)
+  gender: f
+- word: Richtung
+  gender: f
+discovery:
+- word: Entdeckung
+  gender: f
+discussion:
+- word: Besprechung
+  gender: f
+- word: Diskussion
+  gender: f
+disease:
+- word: Erkrankung
+  gender: f
+- word: Krankheit
+  gender: f
+disgust:
+- word: Abstoß
+- word: empören
+distance:
+- word: Abstand
+  gender: m
+- word: Abstand
+  gender: m
+  category: math.
+- word: Entfernung
+  gender: f
+distribution:
+- word: Verbreitung
+  gender: f
+- word: Verteilung
+  gender: f
+- word: Vertrieb
+  gender: m
+division:
+- word: Abteilung
+  gender: f
+- word: Division
+  gender: f
+- word: Liga
+  gender: f
+- word: Skalenteilung
+  gender: f
+- word: Spaltung
+  gender: f
+- word: Trennung
+  gender: f
+doubt:
+- word: Zweifel
+drink:
+- word: Getränk
+- word: Trank
+  gender: m
+driving:
+- word: chauffierend
+- word: fahrend
+dust:
+- word: Staub
+  gender: m
+earth:
+- word: Erde
+  gender: f
+- word: Masse  (elektrisch)
+  gender: f
+- word: Welt
+  gender: f
+edge:
+- word: Ecke
+  gender: f
+- word: Kante
+  gender: f
+- word: Rahmen
+- word: Rand
+  gender: m
+- word: Saum
+  gender: m
+- word: Schneide
+  gender: f
+- word: Schärfe
+- word: Vorteil
+  gender: m
+- word: Zacke
+  gender: f
+education:
+- word: Ausbildung
+  gender: f
+- word: Bildung
+  gender: f
+- word: Bildungswesen
+  gender: n
+- word: Erziehung
+  gender: f
+- word: Pädagogik
+- word: Unterricht
+  gender: m
+effect:
+- word: Effekt
+  gender: m
+- word: Eindruck
+  gender: m
+- word: Ergebnis
+  gender: n
+- word: Wirkung
+  gender: f
+end:
+- word: Ende
+  gender: n
+- word: Kippe  (Zigaretten-)
+  gender: f
+- word: Schluss
+  gender: m
+- word: Ziel
+  gender: n
+- word: Zweck
+  gender: m
+error:
+- word: Fehler
+  gender: m
+- word: Irrtum
+  gender: m
+event:
+- word: Ereignis
+  gender: n
+- word: Veranstaltung
+  gender: f
+- word: Vorfall
+  gender: m
+example:
+- word: Beispiel
+  gender: n
+- word: Leitbild
+  gender: n
+- word: Vorbild
+  gender: n
+exchange:
+- word: Amt  (Telefon)
+  gender: n
+- word: Austausch
+  gender: m
+- word: Fernsprechamt
+  gender: n
+- word: Tausch
+  gender: m
+existence:
+- word: Dasein
+  gender: n
+- word: Existenz
+  gender: f
+- word: Existenz
+  gender: f
+  category: math.
+- word: Leben
+- word: Sein
+  gender: n
+- word: Vorhandensein
+  gender: n
+expansion:
+- word: Ausdehnung
+  gender: f
+- word: Ausweitung
+  gender: f
+- word: Entwicklung
+  gender: f
+  category: math.
+- word: Erweiterung
+  gender: f
+experience:
+- word: Erfahrung
+  gender: f
+- word: Erlebnis
+  gender: n
+- word: Routine
+  gender: f
+expert:
+- word: erfahren
+- word: Experte
+  gender: m
+- word: geschickt
+fact:
+- word: Faktum
+  gender: n
+- word: Gegebenheit
+  gender: f
+- word: Tatsache
+  gender: f
+fall:
+- word: Fall
+  gender: m
+- word: Sturz
+  gender: m
+- word: Herbst
+  gender: m
+family:
+- word: Familie
+  gender: f
+- word: Sippe
+  gender: f
+father:
+- word: Vater
+  gender: m
+fear:
+- word: Angst
+  gender: f
+- word: Befürchtung
+- word: Furcht
+  gender: f
+- word: Schreck
+  gender: m
+feeling:
+- word: Gefühl
+fiction:
+- word: Annahme
+  gender: f
+- word: Fiktion
+  gender: f
+- word: Belletristik
+  gender: f
+field:
+- word: Einsatzgebiet
+  gender: n
+- word: Feld
+  gender: n
+- word: Gebiet
+  gender: n
+- word: Körper
+  category: math.
+- word: Spielfeld
+  gender: n
+fight:
+- word: Kampf
+  gender: m
+- word: Schlacht
+  gender: f
+- word: Streit
+  gender: m
+fire:
+- word: Feuer
+  gender: n
+flame:
+- word: Flamme
+  gender: f
+- word: flammen
+flight:
+- word: Flucht
+  gender: f
+- word: Flug
+  gender: m
+flower:
+- word: Blume
+  gender: f
+- word: Blüte
+fold:
+- word: Falte
+  gender: f
+- word: falten
+- word: Falz
+  gender: m
+- word: gefaltete
+- word: zusammenklappen
+food:
+- word: Ernährung
+- word: Essen
+  gender: n
+- word: Fressen
+  gender: n
+- word: Kost
+  gender: f
+- word: Lebensmittel
+- word: Nahrung
+  gender: f
+- word: Speise
+  gender: f
+force:
+- word: Einfluss
+  gender: m
+- word: Gewalt
+  gender: f
+- word: Kraft
+  gender: f
+- word: Macht
+  gender: f
+- word: Stärke
+- word: Wirkung
+  gender: f
+- word: Zwang
+  gender: m
+form:
+- word: Form
+  gender: f
+- word: Formular
+  gender: n
+- word: Schalung
+  gender: f
+- word: Schulbank
+  gender: m
+- word: Schulklasse
+  gender: f
+friend:
+- word: Bekannte
+- word: Bekannter
+  gender: m
+- word: Freund
+  gender: m
+- word: Freundin
+  gender: m
+front:
+- word: Front
+  gender: f
+- word: Vorderseite
+  gender: f
+fruit:
+- word: Frucht
+  gender: f
+- word: Obst
+  gender: n
+glass:
+- word: Glas
+  gender: n
+- word: Spiegel
+gold:
+- word: Gold
+  gender: n
+government:
+- word: Landesregierung
+  gender: f
+- word: Regierung
+  gender: f
+grain:
+- word: Getreide
+  gender: n
+- word: Korn
+  gender: n
+- word: Maserung
+  gender: f
+- word: Quentchen
+  gender: n
+- word: Samenkorn
+  gender: n
+grass:
+- word: Gras
+  gender: n
+- word: Rasen
+  gender: n
+to grip:
+- word: fassen
+- word: packen
+group:
+- word: Gruppe
+  gender: f
+- word: Gruppe
+  gender: f
+  category: math.
+growth:
+- word: Auswuchs  (Medizin)
+  gender: m
+- word: Entwicklung
+  gender: f
+- word: Gewachs
+  gender: n
+- word: Wachstum
+  gender: n
+- word: Wuchs
+  gender: m
+guide:
+- word: Anleitung
+  gender: f
+- word: Fremdenführer
+- word: Führer
+- word: Führung
+- word: Handbuch
+  gender: n
+- word: Reiseführer
+- word: Wegweiser
+harbor:
+- word: Hafen
+  gender: m
+harmony:
+- word: Eintracht
+  gender: f
+- word: Harmonie
+  gender: f
+hate:
+- word: Hass
+  gender: m
+hearing:
+- word: Gehör
+- word: Hearing
+  gender: n
+- word: hörend
+- word: Gerichtsverhandlung
+  gender: f
+heat:
+- word: Hitze
+  gender: f
+- word: Wärme
+- word: Wärme...
+help:
+- word: Hilfe
+  gender: f
+history:
+- word: Geschichte
+  gender: f
+- word: Historie
+  gender: f
+- word: Werdegang
+  gender: m
+hole:
+- word: Bohrung
+  gender: f
+- word: Loch
+  gender: n
+- word: Markierung
+  gender: f
+to hope:
+- word: hoffen
+hour:
+- word: Stunde
+  gender: f
+humor:
+- word: Humor
+  gender: m
+- word: Komik
+  gender: f
+ice:
+- word: Eis
+  gender: n
+idea:
+- word: Begriff
+  gender: m
+- word: Gedanke
+  gender: m
+- word: Idee
+  gender: f
+- word: Meinung
+  gender: f
+- word: Plan
+  gender: m
+impulse:
+- word: Anstoß
+- word: Impuls
+  gender: m
+- word: Trieb  (Antrieb)
+  gender: m
+increase:
+- word: Erhöhung
+- word: Vermehrung
+  gender: f
+- word: Wachstum
+  gender: n
+- word: Zunahme
+  gender: f
+industry:
+- word: Fleiß
+- word: Gewerbe
+  gender: n
+- word: Industrie
+  gender: f
+ink:
+- word: Druckerschwärze
+- word: Tinte
+  gender: f
+insect:
+- word: Insekt
+  gender: n
+instrument:
+- word: Instrument
+  gender: n
+- word: Messgerät
+- word: Werkzeug
+  gender: n
+insurance:
+- word: Versicherung
+  gender: f
+interest:
+- word: Anteil
+  gender: m
+- word: Bedeutung
+  gender: f
+- word: Interesse
+  gender: n
+- word: Vorteil
+  gender: m
+- word: Wichtigkeit
+  gender: f
+- word: Zins
+  gender: m
+invention:
+- word: Erfindung
+  gender: f
+iron:
+- word: Bügeleisen
+- word: Eisen
+  gender: n
+- word: eisern
+jelly:
+- word: Gallert
+  gender: n
+- word: Gelee
+  gender: n
+join:
+- word: kombinieren
+- word: verbinden
+journey:
+- word: Fahrt
+  gender: f
+- word: Reise
+  gender: f
+judge:
+- word: Jurist
+  gender: m
+- word: Richter
+- word: Sachverständige
+jump:
+- word: Absprung
+- word: Sprung
+  gender: m
+kick:
+- word: Stoß
+kiss:
+- word: Kuss
+  gender: m
+knowledge:
+- word: Kenntnis
+  gender: f
+- word: Kentnisse
+- word: Wissen
+  gender: n
+land:
+- word: Boden
+  gender: m
+- word: Bundesland
+  gender: n
+- word: Festland
+  gender: n
+- word: Land
+  gender: n
+- word: landen
+language:
+- word: Sprache
+  gender: f
+- word: Ich verbitte mir solche Ausdrücke!
+laugh:
+- word: Lache
+  gender: f
+law:
+- word: Gesetz
+  gender: n
+- word: Jura
+- word: Recht
+  gender: n
+- word: Rechtswissenschaft
+  gender: f
+- word: Sport)
+- word: Vorgabe  (Jagd
+  gender: f
+lead:
+- word: Anschlussdraht
+  gender: m
+- word: Blei
+  gender: n
+- word: Führung
+learning:
+- word: lernend
+leather:
+- word: Leder
+  gender: n
+letter:
+- word: Brief
+  gender: m
+- word: Buchstabe
+  gender: m
+level:
+- word: ausgeglichen (Sport)
+- word: eben
+- word: Ebene
+  gender: f
+- word: gleichmäßig
+- word: Höhe
+- word: Level
+  gender: n
+- word: Libelle
+  gender: f
+- word: Niveau
+  gender: n
+- word: Pegel
+  gender: n
+- word: Pegel  (Wasser-)
+  gender: m
+- word: Schwellwert
+  gender: m
+- word: Stand
+  gender: m
+- word: Stufe
+  gender: f
+- word: waagerecht
+- word: Wasserwaage
+  gender: f
+lift:
+- word: Aufzug
+  gender: m
+- word: Fahrstuhl
+  gender: m
+- word: Lift
+  gender: m
+- word: Personenaufzug
+  gender: m
+light:
+- word: blond
+- word: erhellen
+- word: hell
+- word: leicht
+- word: Licht
+  gender: n
+limit:
+- word: Begrenzung
+  gender: f
+- word: Beschränkung
+- word: einseitiger
+  category: math.
+- word: Grenze
+  gender: f
+- word: Grenzwert
+  gender: m
+- word: Grenzwert
+  gender: m
+  category: math.
+- word: Limes
+  gender: n
+  category: math.
+- word: Obergrenze
+  gender: f
+linen:
+- word: Laken
+  gender: n
+- word: Leinen
+liquid:
+- word: flüssig
+- word: Flüssigkeit
+list:
+- word: Aufstellung  (Liste)
+  gender: f
+- word: Liste
+  gender: f
+- word: Verzeichnis
+  gender: n
+look:
+- word: Blick
+  gender: m
+- word: siehe
+loss:
+- word: Ausfall
+  gender: m
+- word: Verlust
+  gender: m
+- word: Kursverlust
+  gender: m
+love:
+- word: herzliche Grüße
+- word: Liebe
+  gender: f
+- word: lieben
+machine:
+- word: maschine
+- word: Maschine
+  gender: f
+man:
+- word: Mann
+  gender: m
+- word: Mannsbild
+  gender: n
+manager:
+- word: Direktor
+  gender: m
+- word: Geschäftsführer
+- word: Leiter
+- word: Manager
+mark:
+- word: Mark
+  gender: n
+- word: Marke
+  gender: f
+- word: Markierung
+  gender: f
+- word: Schulnote
+  gender: f
+- word: Zeichen
+- word: Zensur
+  gender: f
+market:
+- word: Markt
+  gender: m
+mass:
+- word: Masse
+  gender: f
+- word: Menge
+  gender: f
+- word: Messe  (kirchlich)
+  gender: f
+meal:
+- word: Essen
+  gender: n
+- word: Mahl
+  gender: n
+- word: Mahlzeit
+  gender: f
+measure:
+- word: Maß
+- word: Maß
+  category: math.
+- word: Maßeinheit
+- word: Maßnahme
+- word: Maßregel
+meat:
+- word: Fleisch
+  gender: n
+meeting:
+- word: Begegnung
+  gender: f
+- word: Sitzung
+  gender: f
+- word: Treffen
+- word: Versammlung
+  gender: f
+memory:
+- word: Andenken
+  gender: n
+- word: Erinnerung
+  gender: f
+- word: Gedächtnis
+- word: Speicher  (Computer)
+  gender: m
+metal:
+- word: metall
+- word: Metall
+  gender: n
+middle:
+- word: Mitte
+  gender: f
+- word: Mittel...
+milk:
+- word: Milch
+  gender: f
+mind:
+- word: Absicht
+  gender: f
+- word: Ansicht
+  gender: f
+- word: Geist
+  gender: m
+- word: Meinung
+  gender: f
+- word: Phantasie
+  gender: f
+- word: Sinn
+  gender: m
+- word: Verstand
+  gender: m
+mine:
+- word: Bergwerk
+  gender: n
+- word: mein
+- word: meiner
+minute:
+- word: Minute
+  gender: f
+mist:
+- word: Nebel
+money:
+- word: Geld
+  gender: n
+month:
+- word: monat
+- word: Monat
+  gender: m
+morning:
+- word: Frühe
+- word: Morgen
+  gender: m
+- word: Vormittag
+  gender: m
+mother:
+- word: Mutter
+  gender: m
+motion:
+- word: Antrag
+  gender: m
+- word: Bewegung
+  gender: m
+mountain:
+- word: Berg
+  gender: m
+- word: Gebirge
+  gender: n
+move:
+- word: Bewegung
+  gender: m
+music:
+- word: Musik
+  gender: f
+name:
+- word: Name
+  gender: m
+nation:
+- word: Nation
+  gender: f
+- word: Staat
+  gender: m
+- word: Volk
+  gender: n
+need:
+- word: Bedarf
+  gender: m
+- word: Bedürfnis
+- word: Not
+  gender: f
+news:
+- word: Nachricht
+  gender: f
+- word: Nachrichten
+- word: Neuigkeiten
+night:
+- word: Nacht
+  gender: f
+noise:
+- word: Geräusch
+- word: Lärm
+- word: Rauschen
+  gender: n
+- word: Getöse
+note:
+- word: Anmerkung
+  gender: f
+- word: Memorandum
+  gender: n
+  category: pol.
+- word: Note
+  gender: f
+- word: Notiz
+  gender: f
+number:
+- word: Nummer
+  gender: f
+- word: Zahl
+  gender: f
+- word: Zahl
+  gender: f
+  category: math.
+observation:
+- word: Beobachtung
+  gender: f
+offer:
+- word: Angebot
+  gender: n
+- word: Antrag
+  gender: m
+oil:
+- word: Öl
+operation:
+- word: Arbeitsablauf
+  gender: m
+- word: Arbeitsgang
+  gender: m
+- word: Bedienung
+  gender: f
+- word: betrieb
+- word: Betrieb
+  gender: m
+- word: Gang
+  gender: m
+- word: Operation
+  gender: f
+- word: Tätigkeit
+- word: Verfahren
+  gender: n
+opinion:
+- word: Gutachten
+  gender: n
+- word: Meinung
+  gender: f
+- word: Stellungnahme
+  gender: f
+order:
+- word: Auftrag
+  gender: m
+- word: Befehl
+  gender: m
+- word: Grad
+  gender: m
+  category: math.
+- word: Kommando
+  gender: n
+- word: Ordnung
+  gender: f
+- word: Ordnung
+  gender: f
+  category: math.
+organization:
+- word: organisation
+- word: Organisation
+  gender: f
+ornament:
+- word: Verzierung
+  gender: f
+- word: Zierde
+  gender: f
+owner:
+- word: Besitzer
+- word: Eigentümer
+- word: Inhaber
+page:
+- word: Blatt
+  gender: n
+- word: Buchseite
+  gender: f
+- word: seite
+- word: Seite
+  gender: f
+pain:
+- word: Pein
+  gender: f
+- word: Qual
+  gender: f
+- word: Schmerz
+  gender: m
+- word: Stich  (Schmerz)
+  gender: m
+paint:
+- word: Autolack
+  gender: m
+- word: Farbe
+  gender: f
+paper:
+- word: Papier
+  gender: n
+- word: Schriftstück
+- word: Zeitung
+  gender: f
+part:
+- word: Rolle
+  gender: f
+- word: Teil
+  gender: n
+- word: teils
+paste:
+- word: Kleister
+  gender: m
+payment:
+- word: bezahlen
+- word: Bezahlung
+  gender: f
+- word: Entlohnung
+  gender: f
+- word: Vergütung
+peace:
+- word: Friede
+  gender: m
+- word: Frieden
+  gender: m
+- word: Ruhe
+  gender: f
+person:
+- word: Person
+  gender: f
+place:
+- word: Ort
+  gender: m
+- word: Plazierung
+  gender: f
+- word: Stelle
+  gender: f
+plant:
+- word: Anlage
+  gender: f
+- word: Ausrüstung
+- word: Betriebsleitung
+  gender: f
+- word: Gewächs
+- word: Pflanze
+  gender: f
+play:
+- word: Schauspiel
+  gender: n
+- word: Spiel
+  gender: n
+- word: Spiel  (mechanisch)
+  gender: n
+- word: Theaterstück
+pleasure:
+- word: Freude
+  gender: f
+- word: Genuss
+  gender: m
+- word: Vergnügen
+- word: Vergnügung
+point:
+- word: Messer-)
+- word: Punkt
+  gender: m
+- word: Punkt
+  gender: m
+  category: math.
+- word: Spitze  (Kinn-
+  gender: f
+- word: Standpunkt
+  gender: m
+poison:
+- word: Gift
+  gender: n
+polish:
+- word: Politur
+  gender: f
+- word: Polnisch
+porter:
+- word: Gepäckträger
+- word: Pförtner
+- word: Portier
+  gender: m
+- word: Träger
+position:
+- word: Lage
+  gender: f
+- word: Position
+  gender: f
+- word: Standort
+  gender: m
+- word: Standpunkt
+  gender: m
+- word: Stellung
+  gender: f
+- word: Stellung  (Posten)
+  gender: f
+powder:
+- word: Puder
+  gender: n
+- word: Pulver
+  gender: n
+- word: Staub
+  gender: m
+power:
+- word: Energie
+  gender: f
+- word: Kraft
+  gender: f
+- word: Leistung
+  gender: f
+- word: Potenz
+  gender: m
+- word: Strom
+  gender: m
+- word: Vermögen
+- word: Potenz (n-te ~ von x)
+price:
+- word: bereits
+- word: Kurs  (Aktien...)
+  gender: m
+- word: Preis
+  gender: m
+print:
+- word: Druck
+  gender: n
+- word: Fotoabzug
+  gender: m
+process:
+- word: Prozess
+  gender: m
+- word: Vorgang
+  gender: m
+produce:
+- word: Gewachs
+  gender: n
+- word: Produzieren
+  gender: n
+- word: Warenmarkt
+  gender: m
+profit:
+- word: Gewinn
+  gender: m
+- word: Nutzen
+  gender: m
+- word: Profit
+  gender: m
+property:
+- word: Besitz
+  gender: m
+- word: Eigenschaft
+  gender: f
+- word: Eigentum
+  gender: n
+- word: Grundstück
+prose:
+- word: Prosa
+  gender: f
+protest:
+- word: Einspruch
+  gender: m
+- word: Protest
+  gender: m
+to pull:
+- word: reißen
+- word: zerren
+- word: ziehen
+punishment:
+- word: Bestrafung
+  gender: f
+- word: Strafe
+  gender: f
+purpose:
+- word: absicht
+- word: Absicht
+  gender: f
+- word: Vorsatz
+  gender: m
+- word: Zweck
+  gender: m
+to push:
+- word: abstoßen
+- word: drängen
+- word: drücken
+- word: schieben
+- word: stoßen
+quality:
+- word: Beschaffenheit
+  gender: f
+- word: Eigenschaft
+  gender: f
+- word: Güte
+- word: Qualität
+question:
+- word: Frage
+  gender: f
+- word: Fragestellung
+  gender: f
+rain:
+- word: Regen
+  gender: m
+range:
+- word: Auswahl
+  gender: m
+- word: Bereich
+  gender: m
+- word: Bildbereich
+  gender: m
+  category: math.
+- word: Herd
+  gender: m
+- word: Raum
+  gender: m
+- word: Wertebereich
+  gender: m
+rate:
+- word: Anteil
+  gender: m
+- word: Einzeltarif
+  gender: m
+- word: Frequenz
+  gender: f
+- word: Kommunalsteuer
+  gender: f
+- word: Kurs  (Aktien...)
+  gender: m
+- word: Quote
+  gender: f
+- word: Rate  (Zuwachs-)
+  gender: f
+- word: Tarif
+  gender: m
+- word: Verhältnis
+ray:
+- word: Schimmer
+  gender: m
+- word: Strahl
+  gender: m
+- word: Strahl
+  gender: m
+  category: math.
+reaction:
+- word: Gegenwirkung
+  gender: f
+- word: Reaktion
+  gender: f
+reading:
+- word: Ablesung
+  gender: f
+- word: Lektüre
+- word: Lesart
+  gender: f
+- word: lesen
+- word: lesend
+- word: Lesung
+  gender: f
+reason:
+- word: Anlass
+  gender: m
+- word: Grund
+  gender: m
+- word: Ursache
+  gender: f
+- word: venünftig reden
+- word: Vernunft
+  gender: f
+- word: vernünftig urteilen
+- word: Verstand
+  gender: m
+record:
+- word: aufzeichnen
+- word: Aufzeichnung
+  gender: f
+- word: Datensatz
+  gender: m
+- word: Rekord
+  gender: m
+- word: Rekordmarke
+  gender: f
+- word: Satz
+  gender: m
+- word: Schallplatte
+  gender: f
+regret:
+- word: Bedauern
+  gender: n
+relation:
+- word: Beziehung
+  gender: f
+- word: Relation
+  gender: f
+- word: Relation
+  gender: f
+  category: math.
+- word: Verwandte
+  gender: m
+- word: Verwandtschaft
+  gender: f
+religion:
+- word: Religion
+  gender: f
+representative:
+- word: Abgeordnete <m;f>
+- word: bezeichnend
+- word: Repräsentant
+  category: math.
+- word: repräsentativ
+- word: stellvertretend
+- word: Stellvertreter
+  gender: m
+- word: Stellvertreterin
+  gender: f
+- word: Vertreter  (einer Firma)
+  gender: m
+request:
+- word: Abfrage
+  gender: f
+- word: Anforderung
+  gender: f
+- word: Bitte
+  gender: f
+- word: Gesuch
+  gender: n
+- word: Nachfrage
+  gender: f
+respect:
+- word: achten
+- word: Achtung
+  gender: f
+- word: Beziehung
+  gender: f
+- word: Hinsicht
+  gender: f
+- word: respektieren
+rest:
+- word: Auflage
+  gender: f
+- word: Lehne
+  gender: f
+- word: Rast
+  gender: f
+- word: Rest
+  gender: m
+- word: Ruhe
+  gender: f
+- word: Stütze
+reward:
+- word: Belohnung
+  gender: f
+rhythm:
+- word: Rhythmus
+  gender: m
+rice:
+- word: Reis
+  gender: m
+river:
+- word: Fluss
+  gender: m
+road:
+- word: Autostraße
+- word: Landstraße
+- word: Reede
+  gender: f
+- word: Straße
+- word: Weg
+  gender: m
+roll:
+- word: Brötchen
+- word: Rolle
+  gender: f
+- word: Roulade
+  gender: n
+room:
+- word: Gelass
+  gender: n
+- word: Platz
+  gender: m
+- word: Raum
+  gender: m
+- word: Zimmer
+  gender: n
+to rub:
+- word: einreiben
+- word: reiben
+rule:
+- word: Herrschaft
+  gender: f
+- word: herschen
+- word: Maßstab
+- word: Regel
+  gender: f
+run:
+- word: Fahrt
+  gender: f
+- word: Lauf
+  gender: m
+- word: Laufmasche
+  gender: f
+- word: laufen
+- word: rennen
+salt:
+- word: Salz
+  gender: n
+sand:
+- word: Sand
+  gender: m
+scale:
+- word: Kesselsteine
+  gender: f
+- word: Maßstab
+- word: Skala
+  gender: f
+- word: Tonleiter
+  gender: m
+science:
+- word: Naturwissenschaft
+  gender: f
+- word: wissenschaft
+- word: Wissenschaft
+  gender: f
+- word: Naturwissenschaft
+  gender: f
+sea:
+- word: Meer
+  gender: n
+- word: See
+  gender: m
+seat:
+- word: Platz
+  gender: m
+- word: Sitz
+  gender: m
+- word: Sitzplatz
+  gender: m
+secretary:
+- word: Schriftführer
+- word: Sekretär
+- word: Sekretär  (Schreibschrank)
+- word: Sekretärin
+selection:
+- word: Auslese
+  gender: f
+- word: Auswahl
+  gender: m
+self:
+- word: selber
+- word: selbst
+sense:
+- word: Gefühl
+- word: Sinn
+  gender: m
+- word: Verstand
+  gender: m
+- word: Wahrnehmung
+  gender: f
+servant:
+- word: Diener
+- word: Dienstmädchen
+sex:
+- word: Geschlecht
+  gender: n
+shade:
+- word: Schatten
+- word: Schattierung
+  gender: f
+to shake:
+- word: erschüttern
+- word: schütteln
+- word: rütteln
+- word: schütteln
+shame:
+- word: Schamgefühl
+- word: Scham
+  gender: f
+- word: Schande
+  gender: f
+shock:
+- word: Betroffenheit
+  gender: f
+- word: Erschütterung
+- word: Schlag
+  gender: m
+- word: Schock
+  gender: m
+- word: Stoß
+side:
+- word: Flanke
+  gender: f
+- word: Rand
+  gender: m
+- word: Seite
+  gender: f
+sign:
+- word: Schild
+  gender: n
+- word: Signum
+  gender: n
+  category: math.
+- word: Symbol
+  gender: n
+- word: unterzeichnen
+- word: Vorzeichen
+  gender: n
+- word: Wert
+  gender: m
+- word: Zeichen
+silk:
+- word: Seide
+  gender: f
+- word: Seiden...
+silver:
+- word: Silber
+  gender: n
+- word: silbern
+sister:
+- word: Schwester
+  gender: f
+size:
+- word: ausmessen
+- word: Format
+  gender: n
+- word: Größe
+sky:
+- word: Himmel
+  gender: m
+- word: "(am) Firmament"
+  gender: n
+sleep:
+- word: Schlaf
+  gender: m
+slip:
+- word: Fehler
+  gender: m
+slope:
+- word: Abhang
+  gender: m
+- word: Hang
+  gender: m
+- word: Neigung
+  gender: f
+- word: Steigung
+  gender: f
+  category: math.
+smash:
+- word: Schmetterball
+  gender: m
+smell:
+- word: Geruch
+  gender: m
+smile:
+- word: Lächeln
+smoke:
+- word: Rauch
+  gender: m
+to sneeze:
+- word: niesen
+snow:
+- word: Schnee
+  gender: m
+soap:
+- word: Seife
+  gender: f
+society:
+- word: Gesellschaft
+  gender: f
+- word: Kulturkreis
+  gender: m
+- word: Verein
+  gender: m
+son:
+- word: Sohn
+  gender: m
+song:
+- word: Gesang
+  gender: m
+- word: Lied
+  gender: n
+sort:
+- word: Art
+  gender: f
+- word: Gattung
+  gender: f
+- word: Marke
+  gender: f
+- word: Sorte
+  gender: f
+- word: Sortierung
+  gender: f
+sound:
+- word: aussagekräftig (statistische Zahlen usw.)
+- word: einwandfrei
+- word: gesund
+- word: Schall
+  gender: m
+- word: Ton
+  gender: m
+- word: vernünftig
+soup:
+- word: Suppe
+  gender: f
+space:
+- word: Abstand
+  gender: m
+- word: Leertaste
+  gender: f
+- word: Leerzeichen
+- word: Raum
+  gender: m
+- word: Raum
+  gender: m
+  category: math.
+- word: Raumfahrt
+  gender: f
+- word: Zeitraum
+  gender: m
+stage:
+- word: Bühne
+- word: Podium
+  gender: n
+- word: Schauplatz
+  gender: m
+- word: Stadium
+  gender: n
+- word: Stufe
+  gender: f
+- word: veranstalten
+start:
+- word: Anfang
+  gender: m
+- word: Beginn
+  gender: m
+- word: Start
+  gender: m
+statement:
+- word: Abrechnung
+  gender: f
+- word: Anweisung
+  gender: f
+- word: Aussage
+  gender: f
+- word: Bankabrechnung
+  gender: f
+- word: Behauptung
+  gender: f
+- word: Darstellung
+  gender: f
+- word: Stellungnahme
+  gender: f
+steam:
+- word: Dampf
+  gender: m
+- word: Wasserdampf
+  gender: m
+steel:
+- word: Stahl
+  gender: m
+step:
+- word: Ablaufschritt
+  gender: m
+- word: schritt
+- word: Schritt
+  gender: m
+- word: Sprosse
+- word: Stufe
+  gender: f
+- word: Treppe  (einzelne Stufe)
+  gender: f
+stitch:
+- word: Masche  (Strick-)
+  gender: f
+- word: Stich  (Näh-)
+- word: Stich  (Schmerz)
+  gender: m
+stone:
+- word: Kern
+  gender: n
+- word: Obstkern
+  gender: m
+- word: Stein
+  gender: m
+stop:
+- word: Abbruch  (Sport)
+  gender: m
+- word: arretieren
+- word: Aufenthalt
+  gender: m
+- word: Halt
+  gender: m
+- word: Haltestelle
+  gender: f
+- word: Pause
+  gender: f
+story:
+- word: Erzählung
+- word: Geschichte
+  gender: f
+- word: Schwank
+  gender: m
+- word: Stockwerk
+  gender: m
+stretch:
+- word: Ausdehnung
+  gender: f
+- word: Strecke
+  gender: f
+structure:
+- word: Aufbau
+  gender: m
+- word: Gliederung
+  gender: f
+- word: Struktur
+  gender: f
+substance:
+- word: Inhalt
+  gender: m
+- word: Substanz
+  gender: f
+- word: Wesentliche
+  gender: n
+sugar:
+- word: Zucker
+  gender: m
+suggestion:
+- word: Andeutung
+  gender: f
+- word: Vorschlag
+  gender: m
+- word: Wink
+  gender: m
+summer:
+- word: Sommer
+  gender: m
+support:
+- word: Auflage
+  gender: f
+- word: Rückendeckung
+- word: Stütze
+- word: Unterstützung
+surprise:
+- word: Überraschung
+to swim:
+- word: schwimmen
+system:
+- word: Methode
+  gender: f
+- word: System
+  gender: n
+talk:
+- word: Gespräch
+taste:
+- word: Geschmack
+  gender: m
+- word: Kostprobe
+  gender: f
+tax:
+- word: Abgabe
+  gender: f
+- word: Gebühr
+- word: Steuer
+  gender: n
+teaching:
+- word: beibringend
+- word: lehrend
+tendency:
+- word: Absicht
+  gender: f
+- word: Neigung
+  gender: f
+- word: Tendenz
+  gender: f
+- word: Anlage (zu)
+- word: Veranlagung
+  gender: f
+test:
+- word: Klausur
+  gender: f
+- word: Klausurarbeit
+  gender: f
+- word: Probe
+  gender: f
+- word: Prüfung
+- word: Test
+  gender: m
+- word: Untersuchung
+  gender: f
+theory:
+- word: theorie
+- word: Theorie
+  gender: f
+thing:
+- word: Ding
+  gender: n
+- word: Sache
+  gender: f
+thought:
+- word: dachte
+- word: gedacht
+- word: Gedanke
+  gender: m
+- word: denken
+- word: meinen
+thunder:
+- word: Donner
+  gender: m
+time:
+- word: Takt
+  gender: m
+- word: Tempo
+  gender: n
+- word: Zeit
+  gender: f
+- word: zeitlich
+tin:
+- word: Dose
+  gender: f
+- word: Konserve
+  gender: f
+- word: Konservenbüchse
+- word: Zinn
+  gender: n
+- word: Zinnblechbüchse
+top:
+- word: Anfang
+  gender: m
+- word: Gipfel
+  gender: m
+- word: Kopfende
+  gender: n
+- word: Kraut  (das Grüne)
+- word: oben
+- word: Oberteil
+  gender: n
+- word: Spitze
+  gender: f
+- word: Kreisel
+touch:
+- word: Berührung
+trade:
+- word: Beruf
+  gender: m
+- word: eintauschen
+- word: Geschäft
+- word: Handel
+  gender: m
+- word: Handwerk
+  gender: n
+transport:
+- word: Transport
+  gender: m
+trick:
+- word: Kniff
+  gender: m
+- word: Kunst
+  gender: f
+- word: Kunstgriff
+  gender: m
+- word: Kunststück
+- word: List
+  gender: f
+- word: Streich
+  gender: m
+trouble:
+- word: Mühe
+- word: Plage
+  gender: f
+- word: Problem
+  gender: n
+- word: Schwierigkeit
+  gender: f
+- word: Sorge
+  gender: f
+- word: Störung
+- word: Unruhe
+  gender: f
+turn:
+- word: Drehbewegung
+  gender: f
+- word: Drehung
+  gender: f
+- word: Umdrehung
+  gender: f
+- word: Wendung
+  gender: f
+twist:
+- word: Drehung
+  gender: f
+- word: Windung
+  gender: f
+unit:
+- word: Bauteil
+  gender: n
+- word: einfach
+- word: Einheit
+  gender: f
+- word: Gebühreneinheit
+- word: Gerät
+use:
+- word: Anwendung
+  gender: f
+- word: Benutzung
+  gender: f
+- word: Gebrauch
+  gender: m
+- word: Inanspruchnahme
+  gender: f
+- word: Verwendungszweck
+  gender: m
+value:
+- word: Wert
+  gender: m
+verse:
+- word: Strophe
+  gender: f
+- word: Vers
+  gender: m
+vessel:
+- word: Gefäß
+- word: Schiff
+  gender: n
+view:
+- word: Anblick
+  gender: m
+- word: Ansicht
+  gender: f
+- word: Auffassung
+  gender: f
+- word: Aussicht
+  gender: f
+- word: Betrachtung
+  gender: f
+- word: Blick
+  gender: m
+- word: Hinblick
+  gender: m
+voice:
+- word: Stimme
+  gender: f
+walk:
+- word: Gang
+  gender: m
+- word: Marsch
+  gender: m
+- word: Spaziergang
+  gender: m
+war:
+- word: Krieg
+  gender: m
+wash:
+- word: Wäsche
+waste:
+- word: Abfall
+  gender: m
+- word: unbrauchbar
+- word: Verschwendung
+  gender: f
+- word: wüst
+- word: öde
+- word: überflüssig
+water:
+- word: Wasser
+  gender: n
+wave:
+- word: Welle
+  gender: f
+- word: Woge
+  gender: f
+wax:
+- word: Wachs
+  gender: n
+way:
+- word: Art und Weise
+  gender: f
+- word: Gang
+  gender: m
+- word: Straße
+- word: Strecke
+  gender: f
+- word: Weg
+  gender: m
+- word: Weise <m;f>
+weather:
+- word: weder
+- word: Wetter
+  gender: n
+- word: Witterung
+  gender: f
+week:
+- word: Woche
+  gender: f
+weight:
+- word: Bedeutung
+  gender: f
+- word: gewicht
+- word: Gewicht
+  gender: n
+wind:
+- word: Wind
+  gender: m
+wine:
+- word: Wein  (Getränk)
+winter:
+- word: Winter
+  gender: m
+woman:
+- word: Frau
+  gender: f
+wood:
+- word: Gehölz
+- word: Holz
+  gender: n
+- word: Wald
+  gender: m
+wool:
+- word: Wolle
+  gender: f
+word:
+- word: Datenwort
+  gender: n
+- word: Vokabel
+  gender: f
+- word: Wort
+  gender: n
+work:
+- word: Arbeit
+  gender: f
+wound:
+- word: Wunde
+  gender: f
+- word: drehen
+- word: schlängeln
+- word: sich winden
+writing:
+- word: schreiben
+- word: schreibend
+year:
+- word: Jahr
+  gender: n
+angle:
+- word: Kante
+  gender: f
+- word: Winkel
+  gender: m
+- word: Winkel
+  gender: m
+  category: math.
+ant:
+- word: Ameise
+  gender: f
+apple:
+- word: Apfel
+  gender: m
+arch:
+- word: Bogen
+- word: Fußrücken
+- word: Gewölbe
+arm:
+- word: Abzweigung
+  gender: f
+- word: Arm
+  gender: m
+- word: Armlehne
+  gender: f
+army:
+- word: Armee
+  gender: f
+- word: Heer
+  gender: n
+- word: Landstreitkräfte
+baby:
+- word: Baby
+  gender: n
+- word: Kleinkind
+  gender: n
+- word: Säugling
+bag:
+- word: Beutel
+- word: Jagdbeute
+  gender: f
+- word: Koffer
+- word: Sack
+  gender: m
+- word: Tasche
+  gender: f
+- word: Tüte
+ball:
+- word: ball
+- word: Ball
+  gender: m
+- word: Ball
+  gender: m
+  category: math.
+- word: Knäuel
+- word: Kugel
+  gender: f
+band:
+- word: Band
+  gender: n
+- word: Bande
+  gender: f
+- word: Frequenzbereich
+  gender: m
+- word: Kolonne
+  gender: f
+- word: Musikkapelle
+  gender: f
+- word: Reifen
+- word: Schar
+  gender: f
+- word: Trupp
+  gender: m
+basin:
+- word: Becken
+- word: Schale
+  gender: f
+- word: Stromgebiet
+  gender: n
+basket:
+- word: Idiot
+  gender: m
+- word: Korb
+  gender: m
+- word: Körbchen
+bath:
+- word: Bad
+  gender: n
+- word: Badewanne
+  gender: f
+bed:
+- word: Beet
+  gender: n
+- word: Bett
+  gender: n
+- word: betten
+- word: Lager
+  gender: n
+- word: setzen
+bee:
+- word: Biene
+  gender: f
+- word: Wettbewerb
+  gender: m
+bell:
+- word: Glocke
+  gender: f
+- word: Klingel
+  gender: f
+- word: Läute
+- word: Schelle
+  gender: f
+berry:
+- word: Beere
+  gender: f
+bird:
+- word: Vogel
+  gender: m
+blade:
+- word: Blatt
+  gender: n
+- word: Klinge
+  gender: f
+- word: Schaufel
+  gender: f
+board:
+- word: Baugruppe
+  gender: f
+  category: elec.
+- word: Brett
+  gender: n
+- word: Gremium
+  gender: n
+- word: Planke
+  gender: f
+- word: Platte  (Holz)
+  gender: f
+- word: Tafel
+  gender: f
+- word: Tisch
+  gender: m
+- word: Verpflegung
+  gender: f
+boat:
+- word: Boot
+  gender: n
+- word: Kahn
+  gender: m
+- word: Schiff
+  gender: n
+bone:
+- word: Gräte
+- word: Knochen
+book:
+- word: bestellen
+- word: Buch
+  gender: n
+- word: buchen
+- word: Heft
+  gender: n
+boot:
+- word: Kofferraum
+  gender: m
+- word: noch dazu
+- word: obendrein
+- word: Start
+  gender: m
+- word: Stiefel
+bottle:
+- word: Flasche
+  gender: f
+box:
+- word: Box
+  gender: f
+- word: Briefkasten
+  gender: m
+- word: Büchse
+- word: Dose
+  gender: f
+- word: Gehäuse
+- word: Kasten
+- word: Kiste
+  gender: f
+- word: Schachtel
+  gender: f
+boy:
+- word: Junge
+  gender: m
+- word: Junge!
+- word: Knabe
+  gender: m
+brain:
+- word: Gehirn
+  gender: n
+- word: Hirn
+  gender: n
+- word: Verstand
+  gender: m
+brake:
+- word: Bremse
+  gender: f
+- word: Farn
+  gender: n
+- word: Unterholz
+  gender: n
+branch:
+- word: Abteilung
+  gender: f
+- word: Ast
+  gender: m
+- word: Branche
+  gender: f
+- word: Sprung
+  gender: m
+- word: Zweig
+  gender: m
+- word: Zweiggeschäft
+- word: Zweigstelle
+  gender: f
+brick:
+- word: Backstein
+  gender: m
+- word: Baustein
+  gender: m
+- word: Klotz
+  gender: m
+- word: Stein
+  gender: m
+- word: Ziegel
+- word: Ziegelstein
+  gender: m
+bridge:
+- word: Brücke
+brush:
+- word: Bürste
+- word: Pinsel
+- word: putzen
+bucket:
+- word: Eimer
+- word: Schaufel
+  gender: f
+bulb:
+- word: Glühbirne
+- word: Knolle
+  gender: f
+- word: Zwiebel  (Blumen-)
+  gender: f
+button:
+- word: Knopf
+  gender: m
+- word: Taste
+  gender: f
+cake:
+- word: Kuchen
+camera:
+- word: Fotoapparat
+  gender: m
+- word: Kamera
+  gender: f
+card:
+- word: karte
+- word: Karte
+  gender: f
+- word: Visitenkarte
+  gender: f
+carts:
+- word: fährt
+carriage:
+- word: Abfuhr
+  gender: f
+- word: Anfuhr
+  gender: f
+- word: Beförderung
+- word: Gütertransport
+- word: Kutsche
+  gender: f
+- word: Schreibwagen
+  gender: m
+- word: Transport
+  gender: m
+- word: Wagen
+- word: Wagenvorschub
+  gender: m
+cat:
+- word: Katze
+  gender: f
+chain:
+- word: Kette
+  gender: f
+cheese:
+- word: Käse
+chest:
+- word: Brust
+  gender: m
+- word: Brustkorb
+  gender: m
+- word: Kasten
+- word: Kiste
+  gender: f
+- word: Koffer
+chin:
+- word: Kinn
+  gender: n
+church:
+- word: Kirche
+  gender: f
+circle:
+- word: Kreis
+  gender: m
+- word: Kreis
+  gender: m
+  category: math.
+- word: Personenkreis
+  gender: m
+clock:
+- word: Takt
+  gender: m
+- word: Taktgeber
+  gender: m
+- word: Uhr
+  gender: f
+cloud:
+- word: Schatten
+- word: Wolke
+  gender: f
+coat:
+- word: Fell
+  gender: n
+- word: Mantel
+  gender: m
+collar:
+- word: Bund
+  gender: m
+- word: Halsband
+  gender: n
+- word: Kragen
+comb:
+- word: Kamm
+  gender: m
+cord:
+- word: Kordel
+  gender: f
+- word: schnur
+- word: Schnur
+  gender: f
+- word: Strang
+  gender: m
+- word: Strick
+  gender: m
+cow:
+- word: Kuh
+  gender: f
+cup:
+- word: Außenring
+- word: Becher
+- word: Körbchen  (BH)
+- word: Pokal
+  gender: m
+- word: Pokal  (auch Sportpokal)
+  gender: f
+- word: Tasse
+  gender: f
+curtain:
+- word: Gardine
+  gender: f
+- word: Vorhang
+  gender: m
+cushion:
+- word: Kissen
+- word: Polster
+dog:
+- word: Hund
+  gender: m
+door:
+- word: Tür
+  gender: f
+drain:
+- word: Abfließen
+- word: Ablauf
+  gender: m
+- word: Ablaßkanal
+- word: Abzugskanal
+  gender: m
+- word: Austrocknen
+  gender: n
+- word: Entwässern
+- word: Entwässerungsgraben
+- word: Gosse
+  gender: f
+- word: Rinne
+  gender: f
+drawer:
+- word: Schubfach
+  gender: n
+- word: Schublade
+  gender: f
+- word: Zeichner
+dress:
+- word: Kleid
+  gender: n
+drop:
+- word: Abfall
+  gender: m
+- word: Schlückchen
+- word: Spannungsabfall
+  gender: m
+ear:
+- word: Gehör
+- word: Kopf
+  gender: m
+- word: Ohr
+  gender: n
+- word: Ähre
+egg:
+- word: Ei
+  gender: n
+engine:
+- word: Lokomotive
+  gender: f
+- word: Maschine
+  gender: f
+- word: Motor
+  gender: m
+- word: Triebwerk
+  gender: n
+eye:
+- word: Auge
+  gender: n
+- word: Knospe
+  gender: f
+- word: Nadelöhr
+- word: Öhr
+face:
+- word: Anschein
+  gender: m
+- word: Fläche
+- word: Gesicht
+  gender: n
+- word: Miene
+  gender: f
+- word: Oberfläche
+- word: Zifferblatt
+  gender: n
+farm:
+- word: Bauernhof
+  gender: m
+- word: Farm
+  gender: f
+feather:
+- word: "(Vogel-) Feder"
+finger:
+- word: Finger
+fish:
+- word: Fisch
+  gender: m
+flag:
+- word: Fahne
+  gender: f
+- word: Flag
+  gender: n
+- word: Flagge
+  gender: f
+- word: Platte
+  gender: f
+floor:
+- word: Boden
+  gender: m
+- word: Etage
+  gender: f
+- word: Fußboden
+- word: Stock
+  gender: m
+- word: Stockwerk
+  gender: m
+fly:
+- word: Fliege
+  gender: f
+foot:
+- word: Basis
+  gender: f
+- word: Fuß
+fork:
+- word: Fahrrad)
+- word: Gabel  (Besteck
+  gender: f
+- word: Gabelung
+  gender: f
+- word: Verzweigung
+  gender: f
+fowl:
+- word: Geflügel
+frame:
+- word: Bügel
+- word: Fassung  (Brille)
+  gender: f
+- word: Fenster)
+- word: Gestell
+  gender: n
+- word: Rahmen
+- word: Zarge  (Tür
+garden:
+- word: Garten
+  gender: m
+girl:
+- word: Mädchen
+- word: Mädel
+glove:
+- word: Handschuh
+  gender: m
+goat:
+- word: Geiß
+- word: Ziege
+  gender: f
+gun:
+- word: Geschütz
+- word: Gewehr
+  gender: n
+- word: Kanone
+  gender: f
+- word: Knarre
+  gender: f
+- word: Revolver
+hair:
+- word: Haar
+  gender: n
+hammer:
+- word: Hammer
+  gender: m
+hand:
+- word: Hand
+  gender: m
+- word: Handschrift
+  gender: f
+- word: Zeiger
+hat:
+- word: Hut
+  gender: m
+head:
+- word: Chef
+  gender: m
+- word: Haupt
+  gender: n
+- word: Kopf
+  gender: m
+- word: Stück
+heart:
+- word: Herz
+  gender: n
+to hook:
+- word: anhaken
+- word: haken
+horn:
+- word: Horn
+  gender: n
+- word: Hupe
+  gender: f
+horse:
+- word: Gaul
+  gender: m
+- word: Pferd
+  gender: n
+- word: Ross
+  gender: n
+- word: Pferd (Turnen)
+hospital:
+- word: Hospital
+  gender: m
+- word: Krankenhaus
+  gender: n
+house:
+- word: Haus
+  gender: n
+island:
+- word: Eiland
+  gender: n
+- word: Insel
+  gender: f
+jewel:
+- word: Edelstein
+  gender: m
+- word: Juwel
+  gender: n
+- word: Kleinod
+  gender: n
+kettle:
+- word: Kessel
+key:
+- word: Passfeder
+  gender: f
+- word: Schlüssel
+- word: Taste
+  gender: f
+- word: Tonart  (Musik)
+  gender: f
+knee:
+- word: Knie
+  gender: n
+knife:
+- word: Messer
+knot:
+- word: Ast  (im Holz)
+  gender: m
+- word: Knoten
+leaf:
+- word: Blatt
+  gender: n
+- word: Flügel
+- word: Tischplatte  (ausziehbar)
+  gender: f
+- word: Türflügel
+leg:
+- word: Bein
+  gender: n
+- word: Programmzweig
+  gender: m
+library:
+- word: bibilothek
+- word: Bibliothek
+  gender: f
+- word: Bücherei
+- word: Sammlung
+  gender: f
+line:
+- word: Branche
+  gender: f
+- word: Furche
+  gender: f
+- word: Grenzlinie
+  gender: f
+- word: Kurs  (Verkehr)
+  gender: m
+- word: Leine
+  gender: f
+- word: Linie
+  gender: f
+- word: Reihe
+  gender: f
+- word: Richtung
+  gender: f
+- word: Runzel
+  gender: f
+- word: Strecke
+  gender: f
+- word: Strich
+  gender: m
+- word: Vers
+  gender: m
+- word: Zeile
+  gender: f
+- word: Bahnstrecke
+  gender: f
+- word: Schlange
+  gender: f
+- word: Warteschlange
+  gender: f
+- word: Auto-)
+- word: Schlange  (Menschen-
+  gender: f
+lip:
+- word: Lippe
+  gender: f
+lock:
+- word: arretieren
+- word: Schleuse
+  gender: f
+- word: Schloss
+  gender: n
+- word: Sperre
+  gender: f
+- word: Verschluss
+  gender: m
+map:
+- word: abbilden
+- word: Abbildung
+  gender: f
+- word: Abbildung
+  category: math.
+- word: ausarbeiten
+- word: Karte
+  gender: f
+- word: Landkarte
+  gender: f
+- word: planen
+match:
+- word: dazu passende Person
+  gender: f
+- word: dazu passende Sache
+  gender: f
+- word: Gegenstück
+- word: Kampf  (Sport)
+  gender: m
+- word: passt
+- word: Spiel
+  gender: n
+- word: Streichholz
+  gender: n
+- word: Wettkampf
+  gender: m
+- word: zusammenpassendes Paar
+- word: Zündholz
+monkey:
+- word: Affe
+  gender: m
+moon:
+- word: Mond
+  gender: m
+mouth:
+- word: Mund
+  gender: m
+- word: Mündung
+muscle:
+- word: Muskel
+  gender: m
+nail:
+- word: annageln
+- word: Nagel
+  gender: m
+- word: nageln
+neck:
+- word: Genick
+  gender: n
+- word: Hals
+  gender: m
+- word: Nacken
+  gender: m
+needle:
+- word: Nadel
+  gender: f
+nerve:
+- word: Nerv
+  gender: m
+- word: nerven
+net:
+- word: Netto
+  gender: n
+- word: Netz
+  gender: n
+- word: netzartig
+nose:
+- word: Bug  (Flugzeug)
+  gender: m
+- word: Nase
+  gender: f
+nut:
+- word: Mutter
+  gender: m
+- word: Nuss
+  gender: f
+- word: Schraubenmutter
+  gender: f
+office:
+- word: Amt
+  gender: n
+- word: Amt  (Dienststelle)
+  gender: n
+- word: Büro
+- word: Dienst
+  gender: m
+- word: Firmensitz
+  gender: m
+- word: Sekretariat
+  gender: n
+orange:
+- word: Apfelsine
+  gender: f
+- word: Orange
+  gender: n
+oven:
+- word: Backofen
+  gender: m
+- word: Ofen
+  gender: m
+parcel:
+- word: Paket
+  gender: n
+- word: Päckchen
+pen:
+- word: "(Schreib-) Feder"
+- word: Füller
+- word: Griffel
+  gender: m
+- word: Stift
+  gender: m
+pencil:
+- word: Bleistift
+  gender: m
+picture:
+- word: Abbildung
+  gender: f
+- word: Bild
+  gender: n
+- word: Darstellung
+  gender: f
+- word: Film
+  gender: m
+- word: Foto
+  gender: n
+- word: Fotografie
+  gender: f
+- word: Gemälde
+pig:
+- word: Schwein
+  gender: n
+pin:
+- word: Bolzen
+- word: Kegel
+- word: Kontakt
+  gender: m
+- word: Reißzwecke
+- word: Stecknadel
+  gender: f
+- word: Stift
+  gender: m
+- word: Zapfen
+  gender: m
+pipe:
+- word: Pfeife  (Tabaks-)
+  gender: f
+- word: Rohr
+  gender: n
+- word: Weiterleitung
+  gender: f
+plane:
+- word: Ebene
+  gender: f
+  category: math.
+- word: Hobel
+  gender: m
+plate:
+- word: Blech
+  gender: n
+- word: Platte
+  gender: f
+- word: Scheibe
+  gender: f
+- word: Tafel
+  gender: f
+- word: Teller
+  gender: m
+plough:
+- word: Pflug
+  gender: m
+plow:
+- word: Pflug
+  gender: m
+pocket:
+- word: Ablage
+  gender: f
+- word: Ablagefach
+  gender: n
+- word: Fach
+  gender: n
+- word: Tasche
+  gender: f
+- word: Hosentasche
+  gender: f
+pot:
+- word: Kanne
+  gender: f
+- word: Kochtopf
+  gender: m
+- word: Marihuana
+  gender: n
+- word: Topf
+  gender: m
+potato:
+- word: Kartoffel
+  gender: f
+prison:
+- word: Gefängnis
+- word: Strafanstalt
+  gender: f
+pump:
+- word: Luftpumpe
+  gender: f
+- word: Pumpe
+  gender: f
+rail:
+- word: Geländer
+- word: Reling
+  gender: f
+- word: Schiene
+  gender: f
+rat:
+- word: Ratte
+  gender: f
+receipt:
+- word: "(gegen) Quittung"
+  gender: f
+- word: Empfang
+  gender: m
+- word: empfangen
+- word: Quittung
+  gender: f
+ring:
+- word: Klang
+  gender: m
+- word: Kreis
+  gender: m
+- word: Ring
+  gender: m
+rod:
+- word: faulen
+- word: Rute
+  gender: f
+- word: Stab
+  gender: m
+- word: Stange
+  gender: f
+- word: verfaulen
+roof:
+- word: Dach
+  gender: n
+root:
+- word: Haupt
+  gender: n
+- word: Stamm
+  gender: m
+- word: Wurzel
+  gender: f
+- word: Wurzel
+  gender: f
+  category: math.
+sail:
+- word: Segel
+school:
+- word: Fachbereich
+  gender: m
+- word: Lehranstalt
+  gender: f
+- word: Schule
+  gender: f
+- word: Unterricht
+  gender: m
+scissors:
+- word: Messer
+- word: Schere
+  gender: f
+screw:
+- word: Bulle  (Slang)
+  gender: m
+- word: Polizist
+  gender: m
+- word: Schraube
+  gender: f
+seed:
+- word: Saat
+  gender: f
+- word: Saatgut
+  gender: n
+- word: Same
+  gender: m
+- word: Samen
+  gender: m
+sheep:
+- word: Schaf
+  gender: n
+- word: Schafe
+shelf:
+- word: Brett
+  gender: n
+- word: Einlegeboden
+  gender: m
+- word: Regal
+  gender: n
+ship:
+- word: Schiff
+  gender: n
+shirt:
+- word: Hemd
+  gender: n
+shoe:
+- word: Schuh
+  gender: m
+skin:
+- word: Fell
+  gender: n
+- word: Haut
+  gender: f
+- word: Schale  (Obst)
+  gender: f
+skirt:
+- word: "(Damen-) Rock"
+- word: herumgehen
+- word: Rock
+  gender: m
+snake:
+- word: Schlange
+  gender: f
+sock:
+- word: Faustschlag
+  gender: m
+- word: Socke
+  gender: f
+- word: Socken
+spade:
+- word: Spaten
+sponge:
+- word: Schwamm
+  gender: m
+spoon:
+- word: Löffel
+spring:
+- word: Feder
+  gender: f
+- word: Frühjahr
+- word: Frühling
+- word: Lenz
+  gender: m
+- word: Quelle
+  gender: f
+- word: Sprung
+  gender: m
+square:
+- word: anständig
+- word: Karo
+  gender: n
+- word: Platz
+  gender: m
+- word: Quadrat
+  gender: n
+- word: Quadrat
+  gender: n
+  category: math.
+- word: quadratisch
+- word: Viereck
+  gender: n
+- word: viereckig
+- word: vierschrötig
+- word: zweite Potenz
+  gender: f
+stamp:
+- word: Briefmarke
+  gender: f
+- word: Kennzeichen
+- word: Marke
+  gender: f
+- word: Stempel
+  gender: m
+star:
+- word: Star  (Film-)
+  gender: m
+- word: Stern
+  gender: m
+station:
+- word: Bahnhof
+  gender: m
+- word: Station
+  gender: f
+stem:
+- word: Stengel
+  gender: m
+- word: Stiel  (eines Glases)
+  gender: m
+- word: Stiel  (Pflanze)
+  gender: m
+- word: Vorbau  (Fahrrad)
+  gender: m
+stick:
+- word: Stiel  (Besen-)
+  gender: m
+- word: Stock
+  gender: m
+stocking:
+- word: Strumpf
+  gender: m
+stomach:
+- word: Magen
+  gender: m
+store:
+- word: Laden
+  gender: n
+- word: Lager
+  gender: n
+- word: Speicher  (Computer)
+  gender: m
+- word: Vorrat
+  gender: m
+- word: Warenhaus
+  gender: n
+street:
+- word: Straße  (in der Stadt)
+sun:
+- word: Sonne
+  gender: f
+table:
+- word: Tabelle
+  gender: f
+- word: Tafel
+  gender: f
+- word: Tisch
+  gender: m
+- word: Verzeichnis
+  gender: n
+tail:
+- word: Ende
+  gender: n
+- word: Heck
+  gender: n
+- word: Rest
+  gender: m
+- word: Schwanz
+  gender: m
+thread:
+- word: Faden
+  gender: m
+- word: Garn
+  gender: n
+- word: Gewinde
+  gender: n
+- word: Zwirn
+  gender: m
+throat:
+- word: Gurgel
+  gender: f
+- word: Hals
+  gender: m
+- word: Kehle
+  gender: f
+- word: Rachen
+thumb:
+- word: Daumen
+- word: dumm
+ticket:
+- word: Eintrittskarte
+  gender: f
+- word: Fahrkarte
+  gender: f
+- word: Fahrschein
+  gender: m
+- word: Karte
+  gender: f
+toe:
+- word: Spur  (beim Auto)
+  gender: f
+- word: Zehe
+  gender: f
+tongue:
+- word: Sprache
+  gender: f
+- word: Zunge
+  gender: f
+tooth:
+- word: Zahn
+  gender: m
+town:
+- word: Stadt
+  gender: f
+train:
+- word: Eisenbahn
+  gender: f
+- word: Zug
+  gender: m
+tray:
+- word: Ablage
+  gender: f
+- word: Ablagekasten
+  gender: m
+- word: Tablett
+  gender: n
+tree:
+- word: Baum
+  gender: m
+trousers:
+- word: Hose
+  gender: f
+- word: Hosen
+- word: lange Hose
+umbrella:
+- word: Regenschirm
+  gender: m
+- word: Schirm
+  gender: m
+wall:
+- word: Mauer
+  gender: f
+- word: Wand
+  gender: f
+watch:
+- word: Taschenuhr
+  gender: f
+- word: Uhr
+  gender: f
+wheel:
+- word: Laufrad
+  gender: n
+- word: Rad
+  gender: n
+whip:
+- word: Geißel
+- word: Peitsche
+  gender: f
+whistle:
+- word: Pfeife
+  gender: f
+- word: Pfiff
+  gender: m
+window:
+- word: Bildschirmfenster
+  gender: n
+- word: Fenster
+wing:
+- word: Fittich
+  gender: f
+- word: Flügel
+- word: Tragfläche
+- word: Trakt
+  gender: m
+wire:
+- word: Draht
+  gender: m
+- word: Kabel
+- word: Telegramm
+  gender: n
+worm:
+- word: Made
+  gender: f
+- word: Schraubengewinde
+  gender: n
+- word: Wurm
+  gender: m
+able:
+- word: fähig
+- word: klug
+- word: kompetent
+- word: tüchtig
+acid:
+- word: sauer
+- word: Säure
+angry:
+- word: aufgebracht
+- word: böse
+- word: erzürnt
+- word: zornig
+- word: ärgerlich
+automatic:
+- word: Automatik
+  gender: f
+- word: automatisch
+- word: maschinell
+beautiful:
+- word: schön
+black:
+- word: schmutzig
+- word: schwarz
+- word: unsauber
+boiling:
+- word: kochend
+bright:
+- word: aufgeweckt
+- word: froh
+- word: fröhlich
+- word: gescheit
+- word: heiter
+- word: hell
+- word: intelligent
+- word: klar
+- word: leuchtend
+broken:
+- word: gebrochen
+- word: gebrochene
+- word: geknickt
+- word: kaputt
+- word: unterbrechen
+browns:
+- word: legt rein
+cheap:
+- word: billig
+- word: kostengünstig
+- word: minderwertig
+chemical:
+- word: chemisch
+chief:
+- word: Anführer
+- word: Chef
+  gender: m
+- word: hauptsächlich
+clean:
+- word: abputzen
+- word: rein
+- word: sauber
+- word: steril
+clear:
+- word: deutlich
+- word: eindeutig
+- word: frei
+- word: heiter
+- word: hell
+- word: klar
+- word: übersichtlich (klar dargestellt)
+- word: übersichtlich (Kurve)
+common:
+- word: allgemein
+- word: gemeinsam
+- word: verbreitet
+  category: Adj.
+- word: zusammen
+complex:
+- word: komplex
+- word: Komplex
+  gender: m
+- word: kompliziert
+conscious:
+- word: bei Bewusstsein
+- word: bewusst
+- word: bewusst
+  category: mit Genitiv
+cut:
+- word: abgeschnitten
+- word: schneiden
+- word: Schnitt
+  gender: m
+- word: Schnittwunde
+  gender: f
+- word: kürzen
+- word: mähen
+- word: schneiden
+deep:
+- word: dunkel
+- word: tief
+- word: unergründlich
+dependent:
+- word: abhängig
+- word: abhängig von
+- word: abhängige
+- word: Abhängige
+- word: unfrei
+early:
+- word: baldig
+- word: früh
+elastic:
+- word: dehnbar
+- word: elastisch
+electric:
+- word: elektrisch
+equal:
+- word: gleich
+- word: gleich
+  category: math.
+- word: paritätisch
+fat:
+- word: dick
+- word: Fett
+  gender: n
+- word: fett
+fertile:
+- word: fruchtbar
+first:
+- word: erst
+- word: erste
+- word: erstens
+- word: erster
+- word: erstes
+- word: frühest
+- word: zuerst
+- word: zunächst
+fixed:
+- word: befestigte
+- word: eingespannt
+- word: festgelegt
+- word: fixiert
+flat:
+- word: Ebene
+  gender: f
+- word: flach
+- word: Fläche
+- word: geschmacklos
+- word: Mietwohnung
+  gender: f
+- word: Plattfuß
+- word: Reifenpanne
+  gender: f
+- word: Wohnung
+  gender: f
+- word: Wohnung
+  category: Miet-
+free:
+- word: frei
+- word: freigeben
+- word: offenherzig
+- word: umsonst
+frequent:
+- word: häufig
+full:
+- word: voll
+- word: vollständig
+- word: völlig
+general:
+- word: allgemein
+- word: Haupt...
+good:
+- word: artig
+- word: gut
+- word: gutes
+great:
+- word: bedeutend
+- word: groß
+grey:
+- word: grau
+gray:
+- word: grau
+hanging:
+- word: aufhängend
+- word: hängend
+happy:
+- word: glücklich
+hard:
+- word: hart
+- word: heftig
+- word: schwer
+healthy:
+- word: gesund
+- word: gesünder
+- word: wohlbehalten
+high:
+- word: hoch
+- word: Hoch
+  gender: n
+- word: hohe
+- word: Höchststand
+hollow:
+- word: hohl
+- word: Höhle
+important:
+- word: bedeutend
+- word: wesentlich
+- word: wichtig
+kind:
+- word: art
+- word: Art
+  gender: f
+- word: Gattung
+  gender: f
+- word: Sorte
+  gender: f
+like:
+- word: gernhaben
+- word: gleich
+- word: wie
+- word: ähnlich
+living:
+- word: lebend
+- word: lebendig
+- word: Lebensunterhalt
+  gender: m
+- word: Lebensweise
+  gender: f
+- word: Pfründe
+- word: Wohn...
+long:
+- word: lang
+- word: langwierig
+- word: weit
+male:
+- word: Männchen  (zoologisch)
+- word: männlich
+- word: Stecker
+  gender: m
+married:
+- word: ehelichte
+- word: geheiratet
+- word: verheiratet
+material:
+- word: Material
+  gender: n
+- word: Stoff
+  gender: m
+- word: Werkstoff
+  gender: m
+- word: wesentlich
+medical:
+- word: medizinisch
+- word: medizinische
+military:
+- word: Militär
+- word: militärisch
+natural:
+- word: naturgemäß
+- word: Naturtalent
+  gender: n
+- word: natürlich
+- word: natürliche
+- word: natürliche Zahl
+  category: math.
+necessary:
+- word: notwendig
+- word: notwendig
+  category: math.
+- word: nötig
+- word: wichtig
+new:
+- word: neu
+normal:
+- word: normal
+- word: Normale
+  gender: f
+  category: math.
+- word: üblich
+open:
+- word: offen
+- word: offen
+  category: math.
+- word: übersichtlich (Gelände)
+parallel:
+- word: Gegenstück
+- word: parallel
+- word: parallel laufen
+- word: parallel
+  category: math.
+- word: Parallele
+  gender: f
+- word: parallelschalten
+past:
+- word: beendet
+- word: vergangen
+- word: Vergangenheit
+  gender: f
+- word: vorüber
+physical:
+- word: körperlich
+- word: physisch
+- word: technische
+political:
+- word: politisch
+poor:
+- word: arm
+- word: armselig
+- word: dürftig
+possible:
+- word: eventuell
+- word: möglich
+present:
+- word: derzeitig (jetzig)
+- word: gegenwärtig
+- word: Geschenk
+  gender: n
+- word: Präsent
+- word: präsent
+- word: vorhanden
+private:
+- word: nicht öffentlich
+- word: persönlich
+- word: privat
+- word: Gefreite (Soldat)
+probable:
+- word: mutmaßlich
+- word: vermutlich
+- word: wahrscheinlich
+- word: wahrscheinliche
+quick:
+- word: rasch
+- word: schnell
+- word: Schnellsortieren
+  gender: n
+quiet:
+- word: leise
+- word: Ruhe
+  gender: f
+- word: ruhig
+- word: ruhig/still
+- word: still
+ready:
+- word: bereit
+red:
+- word: rot
+- word: Rote  (pol.) <m;f>
+regular:
+- word: gleichmäßiger
+- word: normal
+- word: regelgerecht
+- word: regelmäßig
+- word: regulär
+responsible:
+- word: beantwortbar
+- word: haftbar
+- word: mündig
+- word: verantwortlich
+- word: zuständig (verantwortlich)
+right:
+- word: Berechtigung
+  gender: f
+- word: genau
+- word: gerade
+- word: gleich
+- word: recht
+- word: Recht
+  gender: n
+- word: rechts
+- word: richtig
+- word: sehr
+round:
+- word: Kontrollgang
+  gender: m
+- word: ringsherum
+- word: rund
+- word: Runde
+  gender: f
+- word: runden
+- word: um...herum
+same:
+- word: dasselbe
+- word: dasselbesand
+- word: derselbe
+- word: dieselbe
+- word: gleich
+- word: gleiche
+- word: selbe
+second:
+- word: Sekunde
+  gender: f
+- word: zweite
+separate:
+- word: abgesondert
+- word: gesondert
+- word: getrennt
+serious:
+- word: ernst
+- word: ernsthaft
+- word: seriös
+sharp:
+- word: pünktlich
+- word: schaftem
+- word: scharf
+- word: schrill
+smooth:
+- word: glatt
+- word: glätten
+- word: mild
+sticky:
+- word: klebrig
+- word: pappig
+stiff:
+- word: steif
+- word: starr
+- word: unbeweglich
+straight:
+- word: direkt
+- word: gerade
+- word: geradewegs
+- word: rein
+- word: unmittelbar
+- word: unverfälscht
+strong:
+- word: kampfstark
+- word: stark
+sudden:
+- word: jäh
+- word: plötzlich
+- word: plötzliche
+sweet:
+- word: herzig
+- word: süß
+tall:
+- word: groß
+- word: schlank
+thick:
+- word: dicht
+- word: dick
+tight:
+- word: dicht
+- word: eng
+- word: fest
+tired:
+- word: müde
+'true':
+- word: echt
+- word: richtig
+- word: treu
+- word: wahr
+- word: zutreffend
+violent:
+- word: gewaltsam
+- word: gewalttätig
+- word: heftig
+- word: ungestüm
+waiting:
+- word: wartend auf
+warm:
+- word: warm
+wet:
+- word: feucht
+- word: nass
+wide:
+- word: breit
+- word: Breite
+  gender: f
+- word: weit
+wise:
+- word: Art und Weise
+  gender: f
+- word: verständig
+- word: weise
+yellow:
+- word: gelb
+young:
+- word: jung
+- word: Nachwuchs...
+awake:
+- word: munter
+- word: wach
+bad:
+- word: böse
+- word: schlecht
+- word: schlimm
+- word: ungezogen
+- word: übel
+bent:
+- word: beugte
+- word: gebogen
+- word: biegen
+- word: sich biegen
+- word: verbiegen
+bitter:
+- word: bitter
+blue:
+- word: blau
+- word: schlüpfrig
+- word: trübsinnig
+certain:
+- word: bestimmt
+- word: gewiss
+- word: sicher
+cold:
+- word: Erkältung
+- word: frostig
+- word: kalt
+- word: Kälte
+- word: Schnupfen
+  gender: m
+complete:
+- word: vollständig
+- word: vollständig
+  category: math.
+- word: völlig
+cruel:
+- word: grausam
+dark:
+- word: dunkel
+- word: Dunkelheit
+  gender: f
+- word: finster
+dead:
+- word: abgestorben
+- word: außer Betrieb
+- word: gestorben
+- word: tot
+- word: Toter
+- word: öde
+dear:
+- word: lieb
+- word: liebe
+- word: lieber
+- word: liebes
+- word: sehr geehrte
+- word: teuer
+delicate:
+- word: feinfühlig
+- word: heikel (Frage)
+- word: lecker
+- word: wählerisch
+- word: zart
+different:
+- word: andersgeartet
+- word: unterschiedliche
+- word: verschieden
+dirty:
+- word: dreckig
+- word: schmutzig
+to dry:
+- word: abtrocknen
+- word: dörren
+- word: trocknen
+'false':
+- word: falsch
+- word: unaufrichtig
+- word: unrichtig
+- word: unwahr
+feeble:
+- word: kraftlos
+- word: schwach
+female:
+- word: Buchse
+  gender: f
+- word: weiblich
+foolish:
+- word: albern
+- word: dumm
+- word: närrisch
+- word: töricht
+future:
+- word: künftig
+- word: Zukunft
+  gender: f
+- word: zukünftig
+green:
+- word: grün
+- word: Grün
+ill:
+- word: krank
+- word: schlecht
+- word: schlimm
+last:
+- word: letzte
+- word: letzter
+- word: letztes
+- word: vorig
+- word: zuletzt
+late:
+- word: spät
+- word: verspätet
+left:
+- word: linke
+- word: linke Seite
+- word: linker
+- word: linkes
+- word: links
+- word: übriggelassen
+- word: aufhören
+- word: hinterlassen
+- word: verlassen
+- word: zurücklassen
+- word: überlassen
+- word: übriglassen
+loose:
+- word: locker
+- word: lose
+- word: verlassen
+loud:
+- word: grell
+  category: Farbe
+- word: laut
+low:
+- word: leise
+  category: Stimme
+- word: nieder
+- word: niedrig
+- word: tief
+mixed:
+- word: gemischt
+narrow:
+- word: begrenzte
+- word: eng
+- word: knapp
+- word: schmal
+old:
+- word: alt
+opposite:
+- word: entgegengesetzt
+- word: Gegenteil
+  gender: n
+- word: gegenüber
+- word: gegenüberliegend
+public:
+- word: allgemein
+- word: allgemein bekannt
+- word: öffentlich
+rough:
+- word: geschätzt
+- word: grob
+- word: rabiat
+- word: rauh
+- word: roh
+sad:
+- word: betrübt
+- word: schlimm
+- word: traurig
+safe:
+- word: Geldschrank
+  gender: m
+- word: geschützt
+- word: Safe
+  gender: m
+- word: sicher
+- word: sichere
+- word: Tresor
+  gender: m
+secret:
+- word: geheim
+- word: Geheimnis
+  gender: n
+- word: heimlich
+- word: verborgen
+short:
+- word: klein
+- word: kurz
+- word: kurze
+shut:
+- word: schließen
+- word: verschließen
+- word: zumachen
+- word: geschlossen
+simple:
+- word: einfach
+- word: einfältig
+slow:
+- word: bedächtig
+- word: langsam
+- word: träge
+small:
+- word: gering
+- word: klein
+- word: unbedeutend
+soft:
+- word: "(Licht) matt"
+- word: sanft
+- word: weich
+solid:
+- word: fest
+- word: massiv
+- word: solid
+- word: solide
+- word: zuverlässig
+special:
+- word: besonderer
+- word: besonderes
+  gender: m
+- word: besonders
+- word: extra
+- word: Sonderangebot
+  gender: n
+- word: Sonderausgabe
+  gender: f
+- word: speziell
+strange:
+- word: befremdend
+- word: befremdlich
+- word: fremd
+- word: fremde
+- word: seltsam
+- word: sonderbar
+thin:
+- word: dünn
+- word: dünn werden
+white:
+- word: weiß (Farbe)
+wrong:
+- word: falsch
+- word: Unrecht
+  gender: n
