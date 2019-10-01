@@ -13,9 +13,10 @@ import { sample } from 'lodash'
 let DURATION = 60
 
 let INFO = [
-  'Type a translation finishing with enter;',
-  'Umlauts can be produced by typing a: or a";',
-  'The timer starts after any input;',
+  'Type a translation finishing with enter',
+  'Umlauts can be produced by typing a: or a"',
+  'ß can be replaced with just "ss"',
+  'The timer starts after any input',
   'If you need to restart — reload the page;'
 ]
 
@@ -28,9 +29,26 @@ let AnswerList = styled.ul`
 `
 
 function matches(word, answers) {
-  let answer = answers.find(x =>
-    x.word === word
-  )
+  let answer = answers.find(x => {
+    let expectedWord = x.word
+    let withNoSS = expectedWord.replace(/ß/g, 'ss')
+
+    let versions = [
+      expectedWord,
+      withNoSS,
+    ]
+
+    let addMore = f => {
+      let got = versions.map(f)
+      versions.push(...got)
+    }
+
+    if (x.gender === 'm') addMore(x => `der ${x}`)
+    if (x.gender === 'f') addMore(x => `die ${x}`)
+    if (x.gender === 'n') addMore(x => `das ${x}`)
+
+    return versions.find(x => x === word)
+  })
   return !!answer
 }
 

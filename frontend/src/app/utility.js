@@ -9,7 +9,7 @@ export function ending (number, ending) {
 
 export function distance () {
   let angle = random(0, Math.PI * 2, true)
-  let distance = random(300, 600)
+  let distance = random(400, 500)
   let dx = distance * Math.cos(angle)
   let dy = distance * Math.sin(angle)
   return { dx, dy }
