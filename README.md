@@ -6,7 +6,7 @@ Desktop in-browesr app.
 - Type it in german.
 - See if you typed it right.
 - Your score reflects that.
-- There is a limit of time.
+- There is a time limit.
 - The list of words is generated from Ogden's Basic English vocabulary.
 - Translations are stored in a text file: `translations.yml`.
   They are generated with freedict eng-deu dictionary.
@@ -14,7 +14,8 @@ Desktop in-browesr app.
 ## Note
 
 The list of translations has gaps.
-PRs are welcomed!
+I'm planning to regenerate translations from fuller sources (der/die/das, etc...).
+(Otherwise PRs are welcomed!)
 
 ## Motivation
 
