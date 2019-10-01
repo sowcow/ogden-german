@@ -8,12 +8,12 @@ import Particle from './Particle'
 import Timer from './Timer'
 import Word, { JustInput } from './Word';
 
-import { sample } from 'lodash'
+import { sample, escapeRegExp } from 'lodash'
 
 let DURATION = 60
 
 let INFO = [
-  'Type a translation finishing with enter',
+  'Type a translation with enter when you are ready',
   'Umlauts can be produced by typing a: or a"',
   'ß can be replaced with just "ss"',
   'The timer starts after any input',
@@ -29,6 +29,8 @@ let AnswerList = styled.ul`
 `
 
 function matches(word, answers) {
+  let re = new RegExp(`\b${escapeRegExp(word)}\b`)
+
   let answer = answers.find(x => {
     let expectedWord = x.word
     let withNoSS = expectedWord.replace(/ß/g, 'ss')
@@ -47,7 +49,7 @@ function matches(word, answers) {
     if (x.gender === 'f') addMore(x => `die ${x}`)
     if (x.gender === 'n') addMore(x => `das ${x}`)
 
-    return versions.find(x => x === word)
+    return versions.find(x => x === word || x.match(re))
   })
   return !!answer
 }
@@ -87,6 +89,7 @@ function Typing ({ questions }) {
     let ignore = isChecking
 
     if (e.key === 'Enter') {
+      startGame()
       // if (input === '') return // NOTE: double presses are ok.....
       if (isChecking) {
         setChecking(false)
