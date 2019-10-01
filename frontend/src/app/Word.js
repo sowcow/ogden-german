@@ -38,6 +38,16 @@ let Cursor = () => (
   </CursorStyle>
 )
 
+export function JustInput({ input }) {
+  let focus = input.trim() !== ''
+
+  return <Word
+    input={input}
+    word={input}
+    focus={focus}
+  />
+}
+
 function Word ({ input, word, focus, hideCursor, finish }) {
   let right = ''
   let err = ''

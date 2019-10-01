@@ -44,18 +44,26 @@ let StatsBox = styled.div`
   font-size: 32px;
 `
 
+let CenterBox = styled.div`
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+`
+
 let Center = styled.div`
-  // margin: auto;
   position: absolute;
   left: 50%;
   top: 50%;
-  outline: solid 3px green;
 `
 
-let LINE_COLOR = '#123'
-let LINE_LENGTH = 85
+let CENTER_COLOR = '#06c'
+let CENTER_DELTA = 38
+let CENTER_SIZE = 10
 let TOP = 30
-let MIDDLE = 5
+let MIDDLE = 20
 
 let MyThreeColumns = styled.div`
   width: 100%;
@@ -69,9 +77,11 @@ let MyThreeColumns = styled.div`
   }
   > div:nth-child(2) {
     left: 50%;
-    height: ${LINE_LENGTH}px;
-    width: 1px;
-    background-color: ${LINE_COLOR};
+    transform: translateY(${CENTER_DELTA}px) translateX(-50%);
+    height: ${CENTER_SIZE}px;
+    width: ${CENTER_SIZE}px;
+    border-radius: 50%;
+    background-color: ${CENTER_COLOR};
   }
   > div:nth-child(3) {
     left: calc(50% + ${MIDDLE}px);
@@ -99,9 +109,11 @@ function Layout ({ info, center, stats, left, right }) {
   return (
     <Root>
       <Global />
-      <Center>
-        {center}
-      </Center>
+      <CenterBox>
+        <Center>
+          {center}
+        </Center>
+      </CenterBox>
       <MyThreeColumns>
         <div>
           {left}
