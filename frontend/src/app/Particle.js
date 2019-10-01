@@ -9,7 +9,7 @@ let ParticleTemplate = styled.div`
     ${({ focus }) => (focus ? '' : 'color: #ddd !important;')}
   }
   ${({ focus }) => (focus ? '' : 'font-size: 32px;')}
-  position: absolute;
+  // position: absolute;
   white-space: nowrap;
 `
 

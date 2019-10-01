@@ -51,6 +51,7 @@ function Typing ({ words }) {
 
   function handleKeyboard (e) {
     if (done) return
+    if (e.ctrlKey) return // reloading ctrl+r
 
     if (e.key === ' ') {
       // || e.key === 'Enter') {
@@ -111,18 +112,25 @@ function Typing ({ words }) {
     <Layout
       info={started ? null : INFO}
       center={
-        <>
-          {particles.map((x, i) => (
-            <Particle dx={x.dx} dy={x.dy} key={i}>
-              <Word input={x.input} word={x.word} finish={true} />
-            </Particle>
-          ))}
-          <Particle dx={0} dy={0} focus={true}>
-            <animated.div style={rotateOnDone}>
-              <Word input={input} word={word} focus={true} hideCursor={done} />
-            </animated.div>
+        particles.map((x, i) => (
+          <Particle dx={x.dx} dy={x.dy} key={i}>
+            <Word input={x.input} word={x.word} finish={true} />
           </Particle>
-        </>
+        ))
+      }
+      left={
+        <Particle dx={0} dy={0} focus={true}>
+          <animated.div style={rotateOnDone}>
+            <Word input={input} word={word} focus={true} hideCursor={done} />
+          </animated.div>
+        </Particle>
+      }
+      right={
+        <Particle dx={0} dy={0} focus={true}>
+          <animated.div style={rotateOnDone}>
+            <Word input={input} word={word} focus={true} hideCursor={done} />
+          </animated.div>
+        </Particle>
       }
       stats={
         <animated.div style={props}>

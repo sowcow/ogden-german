@@ -1,0 +1,14 @@
+require 'yaml'
+require 'json'
+
+task :default do
+  yaml = YAML.load_file 'translations.yml'
+  data = yaml.to_a.reduce([]) { |a, (question, answers)|
+    answers.uniq!
+    item = { question: question, answers: answers }
+    a + [item]
+  }
+  json = JSON.dump data
+  File.write 'questions.json', json
+  system 'cp questions.json ../frontend/src/app/data'
+end
