@@ -5,7 +5,7 @@ import questions from './data/questions.json'
 import { shuffle } from 'lodash'
 
 function App () {
-  let xs = questions // shuffle(questions)
+  let xs = shuffle(questions)
   return <Typing questions={xs} />
 }
 

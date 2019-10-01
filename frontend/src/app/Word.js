@@ -38,14 +38,37 @@ let Cursor = () => (
   </CursorStyle>
 )
 
-export function JustInput({ input }) {
-  let focus = input.trim() !== ''
+let DefaultStyle = styled.div`
+  color: #06c;
+`
+let RightStyle = styled.div`
+  color: #0c6;
+`
+let WrongStyle = styled.div`
+  color: #c66;
+`
 
-  return <Word
-    input={input}
-    word={input}
-    focus={focus}
-  />
+// let Hide = styled.div`
+//   visibility: hidden;
+// `
+
+export function JustInput({ input, rightness }) {
+  let given = input.trim() !== ''
+
+  let Wrapper
+  if (rightness === null) Wrapper = DefaultStyle
+  if (rightness === true) Wrapper = RightStyle
+  if (rightness === false) Wrapper = WrongStyle
+
+  // if (!given) return <Hide><Wrapper>none</Wrapper></Hide>
+
+  return <Wrapper>{input}</Wrapper>
+
+  // return <Word
+  //   input={input}
+  //   word={input}
+  //   focus={focus}
+  // />
 }
 
 function Word ({ input, word, focus, hideCursor, finish }) {

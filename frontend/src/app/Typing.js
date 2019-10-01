@@ -1,5 +1,6 @@
 import { animated, useSpring } from 'react-spring'
 import React, { useState, useRef } from 'react'
+import styled from 'styled-components'
 
 import { distance, ending, useKeyboard } from './utility'
 import Layout from './Layout'
@@ -7,12 +8,13 @@ import Particle from './Particle'
 import Timer from './Timer'
 import Word, { JustInput } from './Word';
 
-import styled from 'styled-components'
+import { sample } from 'lodash'
 
 let DURATION = 60
 
 let INFO = [
   'Type a translation finishing with enter;',
+  'Umlauts can be produced by typing a: or a";',
   'The timer starts after any input;',
   'If you need to restart — reload the page;'
 ]
@@ -24,6 +26,13 @@ let AnswerList = styled.ul`
   font-size: 50%;
   color: #888;
 `
+
+function matches(word, answers) {
+  let answer = answers.find(x =>
+    x.word === word
+  )
+  return !!answer
+}
 
 function Typing ({ questions }) {
   let [started, setStarted] = useState(false)
@@ -37,16 +46,9 @@ function Typing ({ questions }) {
   let question = questions[wordIndex]
 
   let [isChecking, setChecking] = useState(false)
+  let [isHit, setHit] = useState(false)
 
   let nextWord = () => {
-    let success = input === question
-
-    if (success) {
-      setGood(good + 1)
-    } else {
-      setBad(bad + 1)
-    }
-
     let { dx, dy } = distance()
     let particle = { input, word: question.question, dx, dy }
 
@@ -67,11 +69,26 @@ function Typing ({ questions }) {
     let ignore = isChecking
 
     if (e.key === 'Enter') {
-      if (input === '') return // NOTE: double presses are ok.....
+      // if (input === '') return // NOTE: double presses are ok.....
       if (isChecking) {
         setChecking(false)
         nextWord()
       } else {
+        input = input.trim()
+        if (!input) {
+          input = noInput()
+          setInput(input)
+        }
+
+        let hit = matches(input, question.answers)
+
+        if (hit) {
+          setGood(good + 1)
+        } else {
+          setBad(bad + 1)
+        }
+
+        setHit(hit)
         setChecking(true)
       }
     } else if (e.key === 'Backspace') {
@@ -81,7 +98,7 @@ function Typing ({ questions }) {
       if (ignore) return
       startGame()
       input += e.key
-      setInput(input)
+      setInput(applyUmlauts(input))
     }
   }
 
@@ -141,8 +158,10 @@ function Typing ({ questions }) {
       //     </animated.div>
       //   </Particle>
       // }
+  let rightness = isChecking ? isHit : null
   return (
     <Layout
+      rightness={rightness}
       info={started ? null : INFO}
       center={
         particles.map((x, i) => (
@@ -153,13 +172,13 @@ function Typing ({ questions }) {
       }
       left={question.question}
       right={<>
-        <JustInput input={input} />
+        <JustInput input={input} rightness={rightness} />
         { !isChecking ? null :
           <div>
             <AnswerList>
               {
                 question.answers.map((x, i) =>
-                  <li key={i}>{ x.word }</li>
+                  <li key={i}>{ withGender(x) }</li>
                 )
               }
             </AnswerList>
@@ -181,6 +200,62 @@ function Typing ({ questions }) {
       }
     />
   )
+}
+
+let MStyle = styled.div`
+  // color: #66f;
+`
+let FStyle = styled.div`
+  // color: #f66;
+`
+let NStyle = styled.div`
+  // color: #666;
+`
+let NoStyle = styled.div``
+
+function withGender(x) {
+  let m = x.gender === 'm'
+  let f = x.gender === 'f'
+  let n = x.gender === 'n'
+
+  let prefix = ''
+  if (m) prefix = 'der '
+  if (f) prefix = 'die '
+  if (n) prefix = 'das '
+
+  let Wrapper = NoStyle
+  if (m) Wrapper = MStyle
+  if (f) Wrapper = FStyle
+  if (n) Wrapper = NStyle
+
+  return <Wrapper>{`${prefix}${x.word}`}</Wrapper>
+}
+
+function applyUmlauts(text) {
+  if (text.length < 2) return text
+  let last = text[text.length - 1]
+  let beforeLast = text[text.length - 2]
+
+  if (last !== ':' && last !== '"') return text
+
+  let use = letter =>
+    text.slice(0, text.length - 2) + letter
+
+  if (beforeLast === 'A') return use('Ä')
+  if (beforeLast === 'a') return use('ä')
+  if (beforeLast === 'O') return use('Ö')
+  if (beforeLast === 'o') return use('ö')
+  if (beforeLast === 'U') return use('Ü')
+  if (beforeLast === 'u') return use('ü')
+
+  return text
+}
+
+let NO_INPUT = [
+  '???',
+]
+function noInput() {
+  return sample(NO_INPUT)
 }
 
 export default Typing

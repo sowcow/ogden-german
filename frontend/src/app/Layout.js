@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { css, createGlobalStyle } from 'styled-components'
 
 let Global = createGlobalStyle`
   * {
@@ -59,7 +59,10 @@ let Center = styled.div`
   top: 50%;
 `
 
-let CENTER_COLOR = '#06c'
+let CENTER_COLOR_DEFAULT = '#06c'
+let CENTER_COLOR_GREEN = '#0c6'
+let CENTER_COLOR_RED = '#c66'
+
 let CENTER_DELTA = 38
 let CENTER_SIZE = 10
 let TOP = 30
@@ -76,16 +79,24 @@ let MyThreeColumns = styled.div`
     right: calc(50% + ${MIDDLE}px);
   }
   > div:nth-child(2) {
-    left: 50%;
-    transform: translateY(${CENTER_DELTA}px) translateX(-50%);
-    height: ${CENTER_SIZE}px;
-    width: ${CENTER_SIZE}px;
-    border-radius: 50%;
-    background-color: ${CENTER_COLOR};
+    // Circle below
   }
   > div:nth-child(3) {
     left: calc(50% + ${MIDDLE}px);
   }
+`
+
+let Circle = styled.div`
+  left: 50%;
+  transform: translateY(${CENTER_DELTA}px) translateX(-50%);
+  height: ${CENTER_SIZE}px;
+  width: ${CENTER_SIZE}px;
+  border-radius: 50%;
+  background-color: ${p =>
+    p.rightness === null ? CENTER_COLOR_DEFAULT : (
+      p.rightness === true ? CENTER_COLOR_GREEN : CENTER_COLOR_RED
+    )
+  };
 `
 
 // let AtRight = styled.div`
@@ -105,7 +116,7 @@ let MyThreeColumns = styled.div`
 // info - either null or string[]
 // center - element
 // stats - element
-function Layout ({ info, center, stats, left, right }) {
+function Layout ({ rightness, info, center, stats, left, right }) {
   return (
     <Root>
       <Global />
@@ -118,7 +129,7 @@ function Layout ({ info, center, stats, left, right }) {
         <div>
           {left}
         </div>
-        <div />
+        <Circle rightness={rightness} />
         <div>
           {right}
         </div>
