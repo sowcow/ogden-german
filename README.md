@@ -8,7 +8,7 @@ Desktop in-browesr app.
 - Your score reflects that.
 - There is a time limit.
 - The list of words is generated from Ogden's Basic English vocabulary.
-- Translations are stored in a text file: `translations.yml`.
+- Translations are stored in [a text file](processing/translations.yml).
   They are generated with freedict eng-deu dictionary.
 
 ## Note
