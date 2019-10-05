@@ -1,32 +1,26 @@
 import { animated, useSpring } from 'react-spring'
+import { sample, escapeRegExp, times } from 'lodash'
 import React, { useState, useRef } from 'react'
-import styled from 'styled-components'
 
-import { distance, ending, useKeyboard } from './utility'
+import { JustInput } from './Word';
+import { animateParticles, distance, ending, useKeyboard } from './utility';
+import Answers from './Answers';
 import Layout from './Layout'
 import Particle from './Particle'
 import Timer from './Timer'
-import Word, { JustInput } from './Word';
 
-import { sample, escapeRegExp } from 'lodash'
-
-let DURATION = 60
+let DURATION = 10
 
 let INFO = [
   'Type a translation with enter when you are ready',
   'Umlauts can be produced by typing a: or a"',
   'ß can be replaced with just "ss"',
   'The timer starts after any input',
-  'If you need to restart — reload the page;'
+  'If you need to restart — reload the page'
 ]
 
 let A_LETTER = /^.$/
 
-let AnswerList = styled.ul`
-  list-style: none;
-  font-size: 50%;
-  color: #888;
-`
 
 function matches(word, answers) {
   let re = new RegExp(`\b${escapeRegExp(word)}\b`)
@@ -69,10 +63,21 @@ function Typing ({ questions }) {
   let [isHit, setHit] = useState(false)
 
   let nextWord = () => {
-    let { dx, dy } = distance()
-    let particle = { input, word: question.question, dx, dy }
+    let moreParticles = []
+    times(1,() => {
+      let { dx, dy } = distance()
+      let particle = {
+        input,
+        word: question.question,
+        answers: question.answers,
+        x: dx, y: dy,
+        hit: isHit
+      }
 
-    setParticles(particles.concat(particle))
+      moreParticles.push(particle)
+    })
+
+    setParticles(particles.concat(moreParticles))
     setWordIndex(wordIndex + 1)
     setInput('')
   }
@@ -88,6 +93,9 @@ function Typing ({ questions }) {
 
     let ignore = isChecking
 
+    if (e.key === 'Escape') {
+      timerRef.current.finish()
+    } else
     if (e.key === 'Enter') {
       startGame()
       // if (input === '') return // NOTE: double presses are ok.....
@@ -129,6 +137,8 @@ function Typing ({ questions }) {
 
   let onTimer = () => {
     setDone(true)
+    let animation = animateParticles(particles, setParticles)
+    animation()
   }
 
   let targetColor = done ? '#06c' : 'gray'
@@ -142,53 +152,22 @@ function Typing ({ questions }) {
   })
   let hideOnDone = useSpring({ opacity: done ? 0 : 1, from: { opacity: 1 } })
 
-  let rotateOnDone = useSpring({
-    config: {
-      friction: 1,
-      clamp: 1
-    },
-    from: {
-      opacity: 1,
-      transform: 'rotate(0deg) scale(1)'
-    },
-    to: !done
-      ? []
-      : [
-          {
-            opacity: 1,
-            transform: 'rotate(360deg) scale(1.1)'
-          },
-          {
-            opacity: 0,
-            transform: 'rotate(0deg) scale(0)'
-          }
-        ]
-  })
-
-      // left={
-      //   <Particle dx={0} dy={0} focus={true}>
-      //     <animated.div style={rotateOnDone}>
-      //       <Word input={input} word={word} focus={true} hideCursor={done} />
-      //     </animated.div>
-      //   </Particle>
-      // }
-      // right={
-      //   <Particle dx={0} dy={0} focus={true}>
-      //     <animated.div style={rotateOnDone}>
-      //       <Word input={input} word={word} focus={true} hideCursor={done} />
-      //     </animated.div>
-      //   </Particle>
-      // }
   let rightness = isChecking ? isHit : null
   return (
     <Layout
+      done={done}
       rightness={rightness}
       info={started ? null : INFO}
       center={
         particles.map((x, i) => (
-          <Particle dx={x.dx} dy={x.dy} key={i}>
-            <Word input={x.input} word={x.word} finish={true} />
-          </Particle>
+          <Particle
+            answers={x.answers}
+            x={x.x} y={x.y}
+            hit={x.hit}
+            word={x.word}
+            key={i}
+            done={done}
+          />
         ))
       }
       left={question.question}
@@ -196,13 +175,7 @@ function Typing ({ questions }) {
         <JustInput input={input} rightness={rightness} />
         { !isChecking ? null :
           <div>
-            <AnswerList>
-              {
-                question.answers.map((x, i) =>
-                  <li key={i}>{ withGender(x) }</li>
-                )
-              }
-            </AnswerList>
+            <Answers answers={question.answers} />
           </div>
         }
       </>}
@@ -221,35 +194,6 @@ function Typing ({ questions }) {
       }
     />
   )
-}
-
-let MStyle = styled.div`
-  // color: #66f;
-`
-let FStyle = styled.div`
-  // color: #f66;
-`
-let NStyle = styled.div`
-  // color: #666;
-`
-let NoStyle = styled.div``
-
-function withGender(x) {
-  let m = x.gender === 'm'
-  let f = x.gender === 'f'
-  let n = x.gender === 'n'
-
-  let prefix = ''
-  if (m) prefix = 'der '
-  if (f) prefix = 'die '
-  if (n) prefix = 'das '
-
-  let Wrapper = NoStyle
-  if (m) Wrapper = MStyle
-  if (f) Wrapper = FStyle
-  if (n) Wrapper = NStyle
-
-  return <Wrapper>{`${prefix}${x.word}`}</Wrapper>
 }
 
 function applyUmlauts(text) {

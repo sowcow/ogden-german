@@ -26,7 +26,13 @@ let Timer = ({ durationSec, onDone }, ref) => {
   useImperativeHandle(ref, () => ({
     start: () => {
       if (!started) setStarted(new Date())
-    }
+    },
+    finish: () => {
+      if (!done) {
+        onDone()
+        setDone(true)
+      }
+    },
     // clear: () => to start after done have finished
   }))
 
