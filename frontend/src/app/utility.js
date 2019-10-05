@@ -1,11 +1,6 @@
-import {
-  forceCenter,
-  forceCollide,
-  forceLink,
-  forceSimulation
-} from 'd3-force';
-import { random, times } from 'lodash';
-import React, { useEffect } from 'react';
+import { forceCenter, forceCollide, forceLink, forceSimulation } from 'd3-force'
+import { random, times } from 'lodash'
+import React, { useEffect } from 'react'
 
 export function ending (number, ending) {
   let hide = number === 1 ? 'hide' : 'show'
@@ -29,7 +24,7 @@ export function useKeyboard (handleKeyboard) {
   })
 }
 
-export function animateParticles(xs, setter) {
+export function animateParticles (xs, setter) {
   let links = []
   let index = 0
   times(xs.length, x => {

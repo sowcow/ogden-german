@@ -11,7 +11,7 @@ let WrongStyle = styled.div`
   color: #c66;
 `
 
-export function JustInput({ input, rightness }) {
+export function JustInput ({ input, rightness }) {
   let Wrapper
   if (rightness === null) Wrapper = DefaultStyle
   if (rightness === true) Wrapper = RightStyle

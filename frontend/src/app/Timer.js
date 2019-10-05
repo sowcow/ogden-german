@@ -32,7 +32,7 @@ let Timer = ({ durationSec, onDone }, ref) => {
         onDone()
         setDone(true)
       }
-    },
+    }
     // clear: () => to start after done have finished
   }))
 

@@ -2,14 +2,14 @@ import { animated, useSpring } from 'react-spring'
 import { sample, escapeRegExp, times } from 'lodash'
 import React, { useState, useRef } from 'react'
 
-import { JustInput } from './Word';
-import { animateParticles, distance, ending, useKeyboard } from './utility';
-import Answers from './Answers';
+import { JustInput } from './Word'
+import { animateParticles, distance, ending, useKeyboard } from './utility'
+import Answers from './Answers'
 import Layout from './Layout'
 import Particle from './Particle'
 import Timer from './Timer'
 
-let DURATION = 10
+let DURATION = 60
 
 let INFO = [
   'Type a translation with enter when you are ready',
@@ -21,18 +21,14 @@ let INFO = [
 
 let A_LETTER = /^.$/
 
-
-function matches(word, answers) {
+function matches (word, answers) {
   let re = new RegExp(`\b${escapeRegExp(word)}\b`)
 
   let answer = answers.find(x => {
     let expectedWord = x.word
     let withNoSS = expectedWord.replace(/ß/g, 'ss')
 
-    let versions = [
-      expectedWord,
-      withNoSS,
-    ]
+    let versions = [expectedWord, withNoSS]
 
     let addMore = f => {
       let got = versions.map(f)
@@ -64,13 +60,14 @@ function Typing ({ questions }) {
 
   let nextWord = () => {
     let moreParticles = []
-    times(1,() => {
+    times(1, () => {
       let { dx, dy } = distance()
       let particle = {
         input,
         word: question.question,
         answers: question.answers,
-        x: dx, y: dy,
+        x: dx,
+        y: dy,
         hit: isHit
       }
 
@@ -95,8 +92,7 @@ function Typing ({ questions }) {
 
     if (e.key === 'Escape') {
       timerRef.current.finish()
-    } else
-    if (e.key === 'Enter') {
+    } else if (e.key === 'Enter') {
       startGame()
       // if (input === '') return // NOTE: double presses are ok.....
       if (isChecking) {
@@ -158,27 +154,28 @@ function Typing ({ questions }) {
       done={done}
       rightness={rightness}
       info={started ? null : INFO}
-      center={
-        particles.map((x, i) => (
-          <Particle
-            answers={x.answers}
-            x={x.x} y={x.y}
-            hit={x.hit}
-            word={x.word}
-            key={i}
-            done={done}
-          />
-        ))
-      }
+      center={particles.map((x, i) => (
+        <Particle
+          answers={x.answers}
+          x={x.x}
+          y={x.y}
+          hit={x.hit}
+          word={x.word}
+          key={i}
+          done={done}
+        />
+      ))}
       left={question.question}
-      right={<>
-        <JustInput input={input} rightness={rightness} />
-        { !isChecking ? null :
-          <div>
-            <Answers answers={question.answers} />
-          </div>
-        }
-      </>}
+      right={
+        <>
+          <JustInput input={input} rightness={rightness} />
+          {!isChecking ? null : (
+            <div>
+              <Answers answers={question.answers} />
+            </div>
+          )}
+        </>
+      }
       stats={
         <animated.div style={props}>
           <animated.div style={hideOnDone}>
@@ -196,15 +193,14 @@ function Typing ({ questions }) {
   )
 }
 
-function applyUmlauts(text) {
+function applyUmlauts (text) {
   if (text.length < 2) return text
   let last = text[text.length - 1]
   let beforeLast = text[text.length - 2]
 
   if (last !== ':' && last !== '"') return text
 
-  let use = letter =>
-    text.slice(0, text.length - 2) + letter
+  let use = letter => text.slice(0, text.length - 2) + letter
 
   if (beforeLast === 'A') return use('Ä')
   if (beforeLast === 'a') return use('ä')
@@ -216,10 +212,8 @@ function applyUmlauts(text) {
   return text
 }
 
-let NO_INPUT = [
-  '???',
-]
-function noInput() {
+let NO_INPUT = ['???']
+function noInput () {
   return sample(NO_INPUT)
 }
 

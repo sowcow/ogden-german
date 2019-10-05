@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components'
 
 let AnswerListTemplate = styled.ul`
@@ -7,14 +7,13 @@ let AnswerListTemplate = styled.ul`
   color: #888;
 `
 
-let Answers = ({ answers }) =>
+let Answers = ({ answers }) => (
   <AnswerListTemplate>
-    {
-      answers.map((x, i) =>
-        <li key={i}>{ withGender(x) }</li>
-      )
-    }
+    {answers.map((x, i) => (
+      <li key={i}>{withGender(x)}</li>
+    ))}
   </AnswerListTemplate>
+)
 
 let MStyle = styled.div`
   // color: #66f;
@@ -27,7 +26,7 @@ let NStyle = styled.div`
 `
 let NoStyle = styled.div``
 
-function withGender(x) {
+function withGender (x) {
   let m = x.gender === 'm'
   let f = x.gender === 'f'
   let n = x.gender === 'n'

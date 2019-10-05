@@ -1,6 +1,6 @@
-import { useSpring, animated } from 'react-spring';
+import { useSpring, animated } from 'react-spring'
 import React from 'react'
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components'
 
 let Global = createGlobalStyle`
   * {
@@ -94,10 +94,11 @@ let Circle = styled.div`
   width: ${CENTER_SIZE}px;
   border-radius: 50%;
   background-color: ${p =>
-    p.rightness === null ? CENTER_COLOR_DEFAULT : (
-      p.rightness === true ? CENTER_COLOR_GREEN : CENTER_COLOR_RED
-    )
-  };
+    p.rightness === null
+      ? CENTER_COLOR_DEFAULT
+      : p.rightness === true
+      ? CENTER_COLOR_GREEN
+      : CENTER_COLOR_RED};
 `
 
 // let AtRight = styled.div`
@@ -118,7 +119,6 @@ let Circle = styled.div`
 // center - element
 // stats - element
 function Layout ({ rightness, info, center, stats, left, right, done }) {
-
   let rotateOnDone = useSpring({
     config: {
       friction: 1,
@@ -128,7 +128,7 @@ function Layout ({ rightness, info, center, stats, left, right, done }) {
       width: '100%',
       opacity: 1,
       transform: 'rotate(0deg) scale(1)',
-      transformOrigin: 'center',
+      transformOrigin: 'center'
     },
     to: !done
       ? []
@@ -148,19 +148,13 @@ function Layout ({ rightness, info, center, stats, left, right, done }) {
     <Root>
       <Global />
       <CenterBox>
-        <Center>
-          {center}
-        </Center>
+        <Center>{center}</Center>
       </CenterBox>
       <animated.div style={rotateOnDone}>
         <MyThreeColumns>
-          <div>
-            {left}
-          </div>
+          <div>{left}</div>
           <Circle rightness={rightness} />
-          <div>
-            {right}
-          </div>
+          <div>{right}</div>
         </MyThreeColumns>
       </animated.div>
       {!info ? null : (
