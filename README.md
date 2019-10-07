@@ -14,8 +14,12 @@ Desktop in-browesr app.
 ## Note
 
 The list of translations has gaps.
-I'm planning to regenerate translations from fuller sources (der/die/das, etc...).
-(Otherwise PRs are welcomed!)
+
+## Status
+
+- [X] Application part working as I need it
+- [X] Initial version of translations is okish
+- [ ] WIP: Better version of translations is being regenerated slowly (using external service)
 
 ## Motivation
 
