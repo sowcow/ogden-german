@@ -24,17 +24,22 @@ relevant.each { |x|
   }
   .map { |x|
     # + x['lessCommonTranslations']
-    x['translations']
+    xs = []
+    xs += x['translations']
+    xs += x['lessCommonTranslations'].map { |x| x.merge({ 'l' => 1 }) }
+
+    xs
       .select { |x|
-        x['audio'] =~ DE
+        x['audio'] =~ DE || x['l']
       }
   }
   .flatten.map { |x|
     word = { word: x['term'] }
+    word['l'] = 1 if x['l'] == 1
     case x['type']
     when /mascu/ then word['gender'] = 'm'
     when /femin/ then word['gender'] = 'f'
-    when /neutra/ then word['gender'] = 'n'
+    when /neut/ then word['gender'] = 'n'
     end
     word
   }

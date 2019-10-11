@@ -5,13 +5,30 @@ let AnswerListTemplate = styled.ul`
   list-style: none;
   font-size: 50%;
   color: #888;
+  max-height: 50vh;
+  overflow-y: auto;
+`
+
+let NormalItem = styled.li`
+`
+
+let LessUsedItem = styled.li`
+  opacity: 0.5;
+  font-size: 50%;
 `
 
 let Answers = ({ answers }) => (
   <AnswerListTemplate>
-    {answers.map((x, i) => (
-      <li key={i}>{withGender(x)}</li>
-    ))}
+    {answers.map((x, i) => {
+      let item = null
+      let text = withGender(x)
+      if (x.l) {
+        item = <LessUsedItem key={i}>{text}</LessUsedItem>
+      } else {
+        item = <NormalItem key={i}>{text}</NormalItem>
+      }
+      return item
+    })}
   </AnswerListTemplate>
 )
 

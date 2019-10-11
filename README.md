@@ -18,8 +18,8 @@ The list of translations has gaps.
 ## Status
 
 - [X] Application part working as I need it
-- [X] Initial version of translations is okish
-- [ ] WIP: Better version of translations is being regenerated slowly (using external service)
+- [X] Nice list of word translations
+- [ ] Words usage examples - maybe I will add them
 
 ## Motivation
 
