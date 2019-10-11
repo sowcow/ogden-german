@@ -51,6 +51,7 @@ p got.select { |x| x[:answers].count == 0 }
 got.reject! { |x| x[:answers].count == 0 }
 
 
-json = JSON.pretty_generate got
+# json = JSON.pretty_generate got
+json = JSON.dump got
 File.write 'generated.json', json
-system 'cp generated.json ../frontend/src/app/data'
+system 'cp generated.json ../frontend/src/app/data/questions.json'
