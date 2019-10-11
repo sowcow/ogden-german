@@ -7,19 +7,13 @@ Desktop in-browesr app.
 - See if you typed it right.
 - Your score reflects that.
 - There is a time limit.
-- The list of words is generated from Ogden's Basic English vocabulary.
+- The list of words is generated from Ogden's Basic English vocabulary with omition of ~5 words.
 - Translations are stored in [a text file](processing/translations.yml).
-  They are generated with freedict eng-deu dictionary.
-
-## Note
-
-The list of translations has gaps.
 
 ## Status
 
 - [X] Application part working as I need it
-- [X] Nice list of word translations
-- [ ] Words usage examples - maybe I will add them
+- [X] Very nice file with translations
 
 ## Motivation
 
@@ -28,6 +22,9 @@ But this reverse way should also acheive that by casting more light on basic voc
 
 ## Future
 
+- words usage examples
+  * I have example sentences with translations ready
+  * But adding them should increace the data file size significally (currently the file is 400k with no examples)
 - spaced repitition (use local storage)
 - not sure about expanding it into other languages
   * requires a menu in the ui
