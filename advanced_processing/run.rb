@@ -3,7 +3,7 @@ require 'mongo'
 require 'incrementalist'
 require_relative 'translations'
 
-PAUSE = 5 * 60 # sec
+PAUSE = 1 # sec
 
 Mongo::Logger.logger.level = Logger::FATAL
 
