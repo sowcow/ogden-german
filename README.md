@@ -25,7 +25,7 @@ But this reverse way should also acheive that by casting more light on basic voc
 - have translations in a yaml file so that they are editable and generate json from there
 - words usage examples
   * I have example sentences with translations ready
-  * But adding them should increace the data file size significally (currently the file is 400k with no examples)
+  * But adding them should increase the data file size significally (currently the file is 400k with no examples)
 - spaced repitition (use local storage)
 - not sure about expanding it into other languages
   * requires a menu in the ui
