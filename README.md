@@ -7,8 +7,8 @@ Desktop in-browesr app.
 - See if you typed it right.
 - Your score reflects that.
 - There is a time limit.
-- The list of words is generated from Ogden's Basic English vocabulary with omition of ~5 words.
-- Translations are stored in [a text file](processing/translations.yml).
+- The list of words is taken from Ogden's Basic English vocabulary with omition of ~5 words.
+- Abundant list of translations has been automatically generated
 
 ## Status
 
@@ -22,6 +22,7 @@ But this reverse way should also acheive that by casting more light on basic voc
 
 ## Future
 
+- have translations in a yaml file so that they are editable and generate json from there
 - words usage examples
   * I have example sentences with translations ready
   * But adding them should increace the data file size significally (currently the file is 400k with no examples)
