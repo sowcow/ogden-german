@@ -16,7 +16,9 @@ let INFO = [
   'Umlauts can be produced by typing a: or a"',
   'ß can be replaced with just "ss"',
   'The timer starts after any input',
-  'If you need to restart — reload the page'
+  'If you need to restart — reload the page',
+  'Omit der/die/das if you feel like',
+  'Press esc to finish early',
 ]
 
 let A_LETTER = /^.$/
