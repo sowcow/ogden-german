@@ -25,6 +25,7 @@ let Root = styled.div`
   font-size: 48pt;
   display: flex;
   overflow: hidden;
+  pointer-events: none;
 `
 
 let InfoBox = styled.div`
@@ -115,6 +116,11 @@ let Circle = styled.div`
 //   outline: solid 3px blue;
 // `
 
+let Divider = styled.hr`
+  color: #fff;
+  margin: 10px 0;
+`
+
 // info - either null or string[]
 // center - element
 // stats - element
@@ -161,6 +167,7 @@ function Layout ({ rightness, info, center, stats, left, right, done }) {
         <InfoBox>
           <ul>
             {info.map((x, i) => (
+              x === '---' ? <Divider key={i} /> :
               <li key={i}>{x}</li>
             ))}
           </ul>

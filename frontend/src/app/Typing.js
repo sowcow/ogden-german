@@ -5,6 +5,7 @@ import React, { useState, useRef } from 'react'
 import { JustInput } from './Word'
 import { animateParticles, distance, ending, useKeyboard } from './utility'
 import Answers from './Answers'
+import Drawable from './Drawable';
 import Layout from './Layout'
 import Particle from './Particle'
 import Timer from './Timer'
@@ -13,12 +14,15 @@ let DURATION = 60
 
 let INFO = [
   'Type a translation with enter when you are ready',
-  'Umlauts can be produced by typing a: or a"',
-  'ß can be replaced with just "ss"',
-  'The timer starts after any input',
-  'If you need to restart — reload the page',
+  'After any input the timer starts',
+  '---',
+  '«ä» can be produced by typing «a:» or «a"»',
+  '«ß» can be replaced with just «ss»',
   'Omit der/die/das if you feel like',
+  '---',
+  'If you need to restart — reload the page',
   'Press esc to finish early',
+  'You can draw stuff (press delete to undo/delete last line)',
 ]
 
 let A_LETTER = /^.$/
@@ -152,6 +156,8 @@ function Typing ({ questions }) {
 
   let rightness = isChecking ? isHit : null
   return (
+    <>
+    <Drawable question={question.question} />
     <Layout
       done={done}
       rightness={rightness}
@@ -192,6 +198,7 @@ function Typing ({ questions }) {
         </animated.div>
       }
     />
+  </>
   )
 }
 

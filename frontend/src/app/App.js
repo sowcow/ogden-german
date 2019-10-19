@@ -5,7 +5,11 @@ import questions from './data/questions.json'
 import { shuffle } from 'lodash'
 
 function App () {
-  let xs = shuffle(questions)
+  let xs = questions
+  if (process.env.NODE_ENV === 'development') {
+    xs = xs.slice(0,3)
+  }
+  xs = shuffle(xs)
   return <Typing questions={xs} />
 }
 

@@ -9,11 +9,22 @@ Desktop in-browesr app.
 - There is a time limit.
 - The list of words is taken from Ogden's Basic English vocabulary with omition of ~5 words.
 - Abundant list of translations has been automatically generated
+- Some niceties like drawing images for words for yourself
 
 ## Status
 
 - [X] Application part working as I need it
 - [X] Very nice file with translations
+- [X] Images (you draw your own right on the page :lol:)
+- [ ] Spaced repitition - simple Leitner system mod
+- [ ] Example sentences??? - we shall see
+  * check the file size if they all are in one file
+  * decide on how to store them: separate/opt-in/cache?
+- [ ] Menu
+  * color choice? or right click for the wheel?
+  * clearing current image
+  * exporting images
+  * importing images
 
 ## Motivation
 
