@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/ogden-german/static/js/main.ee55f009.chunk.js",
-    "main.js.map": "/ogden-german/static/js/main.ee55f009.chunk.js.map",
+    "main.js": "/ogden-german/static/js/main.11c1b268.chunk.js",
+    "main.js.map": "/ogden-german/static/js/main.11c1b268.chunk.js.map",
     "runtime~main.js": "/ogden-german/static/js/runtime~main.261cd323.js",
     "runtime~main.js.map": "/ogden-german/static/js/runtime~main.261cd323.js.map",
-    "static/js/2.e14052f5.chunk.js": "/ogden-german/static/js/2.e14052f5.chunk.js",
-    "static/js/2.e14052f5.chunk.js.map": "/ogden-german/static/js/2.e14052f5.chunk.js.map",
+    "static/js/2.81587ad4.chunk.js": "/ogden-german/static/js/2.81587ad4.chunk.js",
+    "static/js/2.81587ad4.chunk.js.map": "/ogden-german/static/js/2.81587ad4.chunk.js.map",
     "index.html": "/ogden-german/index.html",
-    "precache-manifest.27afb8a0d8d1697103c3633b98fc63f9.js": "/ogden-german/precache-manifest.27afb8a0d8d1697103c3633b98fc63f9.js",
+    "precache-manifest.113780e9d4aa6838f29e7d1065037868.js": "/ogden-german/precache-manifest.113780e9d4aa6838f29e7d1065037868.js",
     "service-worker.js": "/ogden-german/service-worker.js"
   }
 }
