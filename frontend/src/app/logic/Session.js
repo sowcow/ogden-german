@@ -51,6 +51,7 @@ function getDecks(allCards, cardPoints, point) {
 
   let readyIds = getReadyCardIds(cardPoints, point)
   let sessionCards = readyIds.map(id =>
+    // eslint-disable-next-line
     allCards.find(x => x.id == id)
   )
   let sessionDeck = new Deck(sessionCards)

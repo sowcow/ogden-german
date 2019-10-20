@@ -1,8 +1,9 @@
+import { shuffle } from 'lodash'
 import React from 'react'
 
 import Typing from './Typing'
+import getSession from './getSession';
 import questions from './data/questions.json'
-import { shuffle } from 'lodash'
 
 function App () {
   let xs = questions
@@ -10,6 +11,7 @@ function App () {
     xs = xs.slice(0,3)
   }
   xs = shuffle(xs)
+  getSession(xs).takeNextCard() // just starts everything
   return <Typing questions={xs} />
 }
 

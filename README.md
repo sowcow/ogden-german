@@ -10,13 +10,14 @@ Desktop in-browesr app.
 - The list of words is taken from Ogden's Basic English vocabulary with omition of ~5 words.
 - Abundant list of translations has been automatically generated
 - Some niceties like drawing images for words for yourself
+- Spaced repitition system is inplace
 
 ## Status
 
 - [X] Application part working as I need it
 - [X] Very nice file with translations
 - [X] Images (you draw your own right on the page :lol:)
-- [ ] Spaced repitition - simple Leitner system mod
+- [X] Spaced repitition - simple system inspired by Leitner system
 - [ ] Example sentences??? - we shall see
   * check the file size if they all are in one file
   * decide on how to store them: separate/opt-in/cache?
@@ -30,6 +31,19 @@ Desktop in-browesr app.
 
 Technically I want to get my german vocabulary recognition to some level.
 But this reverse way should also acheive that by casting more light on basic vocabulary gaps in a nice environment.
+
+## Spaced Repitition
+
+- During the first session your answers are recorded.
+- During the next session (page reload for example) you see what you answered wrong first.
+  Then you see new words again.
+- So what you answer right gets scheduled after the next session.
+- Every next right answer also increments delta so it is scheduled even further.
+- Wrong answers schedule words right for the next session and reset delta for them.
+
+## TODO
+
+- check if recording hit/miss misses the answer when timer is out on checking the answer stage
 
 ## Future
 

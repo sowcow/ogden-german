@@ -1,5 +1,3 @@
-// TODO: memory storage
-//
 class MemoryStorage {
   constructor(allCards, cardPoints = {}, cardDeltas = {}, point = 0) {
     this.lastPoint = point

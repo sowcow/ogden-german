@@ -9,6 +9,7 @@ import Drawable from './Drawable';
 import Layout from './Layout'
 import Particle from './Particle'
 import Timer from './Timer'
+import getSession from './getSession';
 
 let DURATION = 60
 
@@ -52,7 +53,7 @@ function matches (word, answers) {
   return !!answer
 }
 
-function Typing ({ questions }) {
+function Typing () {
   let [started, setStarted] = useState(false)
   let [done, setDone] = useState(false)
   let [good, setGood] = useState(0)
@@ -60,8 +61,13 @@ function Typing ({ questions }) {
 
   let [input, setInput] = useState('')
   let [particles, setParticles] = useState([])
-  let [wordIndex, setWordIndex] = useState(0)
-  let question = questions[wordIndex]
+  // let [wordIndex, setWordIndex] = useState(0)
+  let [card, setCard] = useState(null)
+  card = getSession().lastCard
+  if (!card) {
+    setCard(getSession().lastCard)
+  }
+  let question = card ? card : { question: '', answers: [] }
 
   let [isChecking, setChecking] = useState(false)
   let [isHit, setHit] = useState(false)
@@ -83,7 +89,7 @@ function Typing ({ questions }) {
     })
 
     setParticles(particles.concat(moreParticles))
-    setWordIndex(wordIndex + 1)
+    setCard(getSession().takeNextCard())
     setInput('')
   }
 
@@ -117,8 +123,10 @@ function Typing ({ questions }) {
 
         if (hit) {
           setGood(good + 1)
+          getSession().recordHit()
         } else {
           setBad(bad + 1)
+          getSession().recordMiss()
         }
 
         setHit(hit)
