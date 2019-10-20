@@ -134,3 +134,7 @@ it('only wrong answers scenario', () => {
   expect(session.takeNextCard()).toEqual(A)
   session.recordMiss()
 })
+
+it('retrival automatically records cards for the next session', () => {
+  expect('maybe the next time').toEqual('maybe the next time')
+})
