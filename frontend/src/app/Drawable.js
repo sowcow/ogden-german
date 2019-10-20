@@ -1,6 +1,6 @@
 import { useViewport } from 'react-viewport-hooks'
 import CanvasDraw from 'react-canvas-draw'
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import styled from 'styled-components'
 
 import * as drawings from './state/drawings'
@@ -20,6 +20,12 @@ let Template = styled.div`
   height: 100vh;
 `
 
+let EditingFlag = styled.div`
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: red;
+`
 
 let onChange = (question, given) => {
   let data = given.getSaveData()
@@ -35,9 +41,15 @@ const NO_DATA = JSON.stringify({
 
 // non-ideal to pass it there but so what
 function Drawable({ question }) {
+  let [editing, setEditing] = useState(false)
+  let toggleEditing = () => setEditing(!editing)
+
   function handleKeyboard (e) {
     if (e.key === 'Delete') {
-      canvasRef.current.undo()
+      if (editing) canvasRef.current.undo()
+    } else
+    if (e.key === 'Insert') {
+      toggleEditing()
     }
   }
   useKeyboard(handleKeyboard)
@@ -63,6 +75,7 @@ function Drawable({ question }) {
     <CanvasDraw
       ref={canvasRef}
       onChange={x => onChange(question, x)}
+      disabled={!editing}
       catenaryColor={CATENARY_COLOR}
       brushRadius={BRUSH_RADUS}
       brushColor={BRUSH_COLOR}
@@ -71,7 +84,9 @@ function Drawable({ question }) {
       canvasHeight={vh}
       hideGrid={true}
       immediateLoading={true}
+      loadTimeOffset={0}
     />
+    { editing && <EditingFlag>Drawing mode</EditingFlag> }
   </Template>
 }
 
