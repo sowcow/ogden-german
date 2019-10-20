@@ -49,6 +49,10 @@ But this reverse way should also acheive that by casting more light on basic voc
 ## Todo
 
 - check if recording hit/miss misses the answer when timer is out on checking the answer stage
+- can the last screen lie about hits/misses? is it hiding some words?
+- to add pause for drawing?
+- to not allow drawing outside the pause? or to limit when you can do it
+- some out of place translations are present
 
 ## Future
 
