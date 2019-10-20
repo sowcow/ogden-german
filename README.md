@@ -41,7 +41,12 @@ But this reverse way should also acheive that by casting more light on basic voc
 - Every next right answer also increments delta so it is scheduled even further.
 - Wrong answers schedule words right for the next session and reset delta for them.
 
-## TODO
+## Note
+
+- clearing localStore destroys spaced repitition data
+- clearing IndexedDB destroys drawings
+
+## Todo
 
 - check if recording hit/miss misses the answer when timer is out on checking the answer stage
 
