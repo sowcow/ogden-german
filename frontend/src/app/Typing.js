@@ -19,13 +19,14 @@ let INFO = [
   '---',
   '«ä» can be produced by typing «a:» or «a"»',
   '«ß» can be replaced with just «ss»',
-  'Omit der/die/das if you feel like',
+  'Omit «der/die/das» if you feel like',
   '---',
   'If you need to restart — reload the page',
   'Press esc to finish early',
   '---',
-  'You can draw stuff (press delete to undo/delete last line)',
-  'The drawing will be shown with that word',
+  'Press «insert» to enter/exit drawing mode',
+  'Press «delete» to delete last line',
+  'The drawing will be associated with the current word',
 ]
 
 let A_LETTER = /^.$/

@@ -9,8 +9,8 @@ Desktop in-browesr app.
 - There is a time limit.
 - The list of words is taken from Ogden's Basic English vocabulary with omition of ~5 words.
 - Abundant list of translations has been automatically generated
-- Some niceties like drawing images for words for yourself
-- Spaced repitition system is inplace
+- Drawing images for words for yourself (pen pressure is not going to be supported)
+- Spaced repitition system
 
 ## Status
 
@@ -18,10 +18,14 @@ Desktop in-browesr app.
 - [X] Very nice file with translations
 - [X] Images (you draw your own right on the page :lol:)
 - [X] Spaced repitition - simple system inspired by Leitner system
+- [ ] Settings/menu
+  * whether to use timer or not
+  * drawing mode or not
+  * that "short" info about how to use it
 - [ ] Example sentences??? - we shall see
   * check the file size if they all are in one file
   * decide on how to store them: separate/opt-in/cache?
-- [ ] Menu
+- [ ] Drawing menu
   * color choice? or right click for the wheel?
   * clearing current image
   * exporting images
@@ -34,12 +38,11 @@ But this reverse way should also acheive that by casting more light on basic voc
 
 ## Spaced Repitition
 
-- During the first session your answers are recorded.
-- During the next session (page reload for example) you see what you answered wrong first.
-  Then you see new words again.
-- So what you answer right gets scheduled after the next session.
-- Every next right answer also increments delta so it is scheduled even further.
-- Wrong answers schedule words right for the next session and reset delta for them.
+1. Opening/reloading the page starts a session
+1. You decide how many cards you want to process in each session
+1. You decide how often to perform sessions
+1. Wrongly answered words will haunt you
+1. Right answers will move words further into the next sessions so you do not see them for some time
 
 ## Note
 
