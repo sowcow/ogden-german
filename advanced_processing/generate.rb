@@ -1,7 +1,7 @@
 require 'json'
 
 # dumped mongo "node" collection as a json file
-file = File.expand_path '~/Downloads/node'
+file = File.expand_path './Downloads/node'
 input = File.read file
 input = JSON.load input
 
@@ -44,6 +44,7 @@ relevant.each { |x|
     word
   }
   item = {
+    id: take_id,
     question: x['query'],
     answers: answers,
   }
@@ -60,3 +61,12 @@ got.reject! { |x| x[:answers].count == 0 }
 json = JSON.dump got
 File.write 'generated.json', json
 system 'cp generated.json ../frontend/src/app/data/questions.json'
+
+BEGIN {
+  $next_id = 0
+  def take_id
+    id = $next_id
+    $next_id += 1
+    return id
+  end
+}
