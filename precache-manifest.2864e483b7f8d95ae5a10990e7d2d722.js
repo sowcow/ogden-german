@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60d67f9291ed17339fdd6525fac07f01",
+    "revision": "a93afd0d0835b8b0c370071cafd139aa",
     "url": "/ogden-german/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ogden-german/static/js/2.bf0a3f6e.chunk.js"
   },
   {
-    "revision": "300b6f47d0d349a28300",
-    "url": "/ogden-german/static/js/main.3dff565b.chunk.js"
+    "revision": "feda04ec70aa193794d3",
+    "url": "/ogden-german/static/js/main.f6b9a802.chunk.js"
   },
   {
     "revision": "90d5275201e6b7b33c88",
