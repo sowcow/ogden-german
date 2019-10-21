@@ -24,6 +24,10 @@ I may create a file for edits to be incorporated if there are propositions to ad
 - Drawing images for words for yourself (pen pressure is not supported by browsers afaik)
 - Simple spaced repitition system
 
+## Bugs
+
+- Drawings does not handle well browser window size changes so keep it same/maxed if you use the feature
+
 ## Status
 
 - [X] Application part working as I need it
