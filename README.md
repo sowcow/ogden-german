@@ -28,6 +28,8 @@ I may create a file for edits to be incorporated if there are propositions to ad
 
 - Drawings does not handle well browser window size changes so keep it same/maxed if you use the feature
 
+## Screenshots
+
 ![wrong-answer](/shots/wrong.png?raw=true)
 
 ![right-answer](/shots/right.png?raw=true)
