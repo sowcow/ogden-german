@@ -23,6 +23,7 @@ class Session {
   takeNextCard() {
     let card = this.player.takeNextCard()
     this.lastCard = card
+    if (!card) return
     this.storage.recordPoint(card.id, this.point)
     return card
   }

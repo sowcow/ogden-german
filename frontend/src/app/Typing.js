@@ -17,19 +17,16 @@ let DURATION = 60
 
 let INFO = [
   'Type a translation with enter when you are ready',
-  'After any input the timer starts',
+  'Press esc to see results of the session',
+  'If you want to start again — reload the page',
   '---',
   '«ä» can be produced by typing «a:» or «a"»',
   '«ß» can be replaced with just «ss»',
   'Omit «der/die/das» if you feel like',
   '---',
-  'If you need to restart — reload the page',
-  'Press esc to finish early',
-  '---',
   'Press «insert» to enter/exit drawing mode',
-  'Press «delete» to delete last line',
+  'Press «delete» to delete the last line',
   'The drawing will be associated with the current word',
-  'Entering the drawing mode is how you pouse the timer at this point',
 ]
 
 let A_LETTER = /^.$/
@@ -63,13 +60,22 @@ function Typing () {
   let [good, setGood] = useState(0)
   let [bad, setBad] = useState(0)
 
+  let timerRef = useRef()
+  function completeSession() {
+    timerRef.current && timerRef.current.finish()
+  }
+
   let [input, setInput] = useState('')
   let [particles, setParticles] = useState([])
   // let [wordIndex, setWordIndex] = useState(0)
   let [card, setCard] = useState(null)
   card = getSession().lastCard
   if (!card) {
-    setCard(getSession().lastCard)
+    if (getSession().lastCard) {
+      setCard(getSession().lastCard)
+    } else {
+      if (!done) completeSession()
+    }
   }
   let question = card ? card : { question: '', answers: [] }
 
@@ -98,7 +104,7 @@ function Typing () {
   }
 
   let startGame = () => {
-    timerRef.current.start()
+    // timerRef.current.start()
     setStarted(true)
   }
 
@@ -109,7 +115,7 @@ function Typing () {
     let ignore = isChecking
 
     if (e.key === 'Escape') {
-      timerRef.current.finish()
+      completeSession()
     } else if (e.key === 'Enter') {
       startGame()
       // if (input === '') return // NOTE: double presses are ok.....
@@ -148,8 +154,6 @@ function Typing () {
   }
 
   useKeyboard(handleKeyboard)
-
-  let timerRef = useRef()
 
   let setFinished = useSetFinished()
 

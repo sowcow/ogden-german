@@ -1,8 +1,14 @@
 import { differenceInSeconds, subSeconds } from 'date-fns';
 import React, { useState, useImperativeHandle, forwardRef, useEffect } from 'react'
 import useInterval from '@use-it/interval'
+import styled from 'styled-components'
 
 let CHECK_INTERVAL = 100
+
+// NOTE: disabled the timer this ugly way
+let TimerDiv = styled.div`
+  display: none;
+`
 
 let Timer = ({ durationSec: durationSecGiven, onDone, paused }, ref) => {
   let [started, setStarted] = useState(null)
@@ -59,7 +65,7 @@ let Timer = ({ durationSec: durationSecGiven, onDone, paused }, ref) => {
 
   let timeLeft = durationSec - current
 
-  return <div>{timeLeft} sec.</div>
+  return <TimerDiv>{timeLeft} sec.</TimerDiv>
 }
 Timer = forwardRef(Timer)
 
