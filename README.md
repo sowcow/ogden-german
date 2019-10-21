@@ -2,15 +2,24 @@
 
 Desktop in-browesr app.
 
+Chill and simple process.
+
+## Process
+
 - See a word in english.
 - Type it in german.
 - See if you typed it right.
 - Your score reflects that.
-- There is a time limit.
-- The list of words is taken from Ogden's Basic English vocabulary with omition of ~5 words.
+- Draw some images right on the screen if you want.
+- Hit escape when you are ready to finish.
+- Review words by hovering mouse above them on the final screen.
+
+## Features
+
+- The list of words is taken from Ogden's Basic English vocabulary (with omition of ~5 words).
 - Abundant list of translations has been automatically generated
-- Drawing images for words for yourself (pen pressure is not going to be supported)
-- Spaced repitition system
+- Drawing images for words for yourself (pen pressure is not supported by browsers afaik)
+- Simple spaced repitition system
 
 ## Status
 
@@ -18,14 +27,14 @@ Desktop in-browesr app.
 - [X] Very nice file with translations
 - [X] Images (you draw your own right on the page :lol:)
 - [X] Spaced repitition - simple system inspired by Leitner system
-- [ ] Settings/menu
+- [ ] Example sentences??? - we shall see - HMMMMM
+  * check the file size if they all are in one file
+  * decide on how to store them: separate/opt-in/cache?
+- [ ] Settings/menu - UNLIKELY
   * whether to use timer or not
   * drawing mode or not
   * that "short" info about how to use it
-- [ ] Example sentences??? - we shall see
-  * check the file size if they all are in one file
-  * decide on how to store them: separate/opt-in/cache?
-- [ ] Drawing menu
+- [ ] Drawing menu - UNLIKELY
   * color choice? or right click for the wheel?
   * clearing current image
   * exporting images
@@ -51,12 +60,9 @@ But this reverse way should also acheive that by casting more light on basic voc
 
 ## Todo
 
-- timer flickering on unpause after drawing
-- check if recording hit/miss misses the answer when timer is out on checking the answer stage
-- can the last screen lie about hits/misses? is it hiding some words?
-- to add pause for drawing?
-- to not allow drawing outside the pause? or to limit when you can do it
 - some out of place translations are present
+- the code have not had any refactoring yet!
+- fix the optional predictability thing with all the logic inside components when it comes to words at the final screen for example
 
 ## Future
 
@@ -64,11 +70,11 @@ But this reverse way should also acheive that by casting more light on basic voc
 - words usage examples
   * I have example sentences with translations ready
   * But adding them should increase the data file size significally (currently the file is 400k with no examples)
-- spaced repitition (use local storage)
-- not sure about expanding it into other languages
+- not sure about expanding it into other languages (russian?)
   * requires a menu in the ui
   * local storage to remember the choice
   * multiple language json files
   * dynamic loading of language json files
   * translations should be generateable easily but they
     are not complete and require manual handling by somebody interested anyway
+  * forking it for a new language seems like an easy way but idk

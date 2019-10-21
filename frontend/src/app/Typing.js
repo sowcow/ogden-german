@@ -83,6 +83,11 @@ function Typing () {
   let [isHit, setHit] = useState(false)
 
   let nextWord = () => {
+    setCard(getSession().takeNextCard())
+    setInput('')
+  }
+
+  let addParticles = isHit => {
     let moreParticles = []
     times(1, () => {
       let { dx, dy } = distance()
@@ -99,8 +104,6 @@ function Typing () {
     })
 
     setParticles(particles.concat(moreParticles))
-    setCard(getSession().takeNextCard())
-    setInput('')
   }
 
   let startGame = () => {
@@ -140,6 +143,7 @@ function Typing () {
         }
 
         setHit(hit)
+        addParticles(hit)
         setChecking(true)
       }
     } else if (e.key === 'Backspace') {
@@ -164,7 +168,8 @@ function Typing () {
     animation()
   }
 
-  let [drawing, setDrawing] = useDrawing()
+  // eslint-disable-next-line
+  let [drawing, _setDrawing] = useDrawing()
 
   let targetColor = done ? '#06c' : 'gray'
   let props = useSpring({

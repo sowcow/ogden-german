@@ -1,7 +1,7 @@
-import { differenceInSeconds, subSeconds } from 'date-fns';
+import { differenceInSeconds } from 'date-fns';
 import React, { useState, useImperativeHandle, forwardRef, useEffect } from 'react'
-import useInterval from '@use-it/interval'
 import styled from 'styled-components'
+import useInterval from '@use-it/interval'
 
 let CHECK_INTERVAL = 100
 
@@ -32,7 +32,8 @@ let Timer = ({ durationSec: durationSecGiven, onDone, paused }, ref) => {
         // setUnPaused(true)
       }
     }
-  }, [paused])
+     // eslint-disable-next-line
+  }, [paused]) // ugly
 
   useInterval(() => {
     if (done) return
