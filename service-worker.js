@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ogden-german/precache-manifest.2864e483b7f8d95ae5a10990e7d2d722.js"
+  "/ogden-german/precache-manifest.11a8ceb578296ed9eb755962dcd02541.js"
 );
 
 self.addEventListener('message', (event) => {
