@@ -1,8 +1,11 @@
 # Ogden German
 
-Desktop in-browesr app.
+Desktop in-browesr app to practice typing ENG -> GER vocabulary translation.
 
 Chill and simple process.
+
+The dictionary used is great but not perfect.
+I may create a file for edits to be incorporated if there are propositions to add/fix specific translations.
 
 ## Process
 
