@@ -1,11 +1,11 @@
 import { useViewport } from 'react-viewport-hooks'
 import CanvasDraw from 'react-canvas-draw'
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect } from 'react';
 import styled from 'styled-components'
 
-import * as drawings from './state/drawings'
-
+import { useGetFinished } from './hooks/useFinished';
 import { useKeyboard } from './utility'
+import * as drawings from './state/drawings'
 
 const CATENARY_COLOR = '#fff'
 const BRUSH_COLOR = '#000'
@@ -40,16 +40,10 @@ const NO_DATA = JSON.stringify({
 })
 
 // non-ideal to pass it there but so what
-function Drawable({ question }) {
-  let [editing, setEditing] = useState(false)
-  let toggleEditing = () => setEditing(!editing)
-
+function Drawable({ question, drawing: editing }) {
   function handleKeyboard (e) {
     if (e.key === 'Delete') {
       if (editing) canvasRef.current.undo()
-    } else
-    if (e.key === 'Insert') {
-      toggleEditing()
     }
   }
   useKeyboard(handleKeyboard)
@@ -71,7 +65,10 @@ function Drawable({ question }) {
 
   const { vw, vh } = useViewport()
 
+  let finished = useGetFinished()
+
   return <Template>
+    { finished ? null :
     <CanvasDraw
       ref={canvasRef}
       onChange={x => onChange(question, x)}
@@ -86,6 +83,7 @@ function Drawable({ question }) {
       immediateLoading={true}
       loadTimeOffset={0}
     />
+    }
     { editing && <EditingFlag>Drawing mode</EditingFlag> }
   </Template>
 }

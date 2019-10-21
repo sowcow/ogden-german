@@ -2,6 +2,8 @@ import { useSpring, animated } from 'react-spring'
 import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 
+import { useGetFinished } from './hooks/useFinished';
+
 let Global = createGlobalStyle`
   * {
     margin: 0;
@@ -25,7 +27,7 @@ let Root = styled.div`
   font-size: 48pt;
   display: flex;
   overflow: hidden;
-  pointer-events: none;
+  ${p => p.finished ? '' : 'pointer-events: none;'}
 `
 
 let InfoBox = styled.div`
@@ -150,8 +152,10 @@ function Layout ({ rightness, info, center, stats, left, right, done }) {
         ]
   })
 
+  let finished = useGetFinished()
+
   return (
-    <Root>
+    <Root finished={finished}>
       <Global />
       <CenterBox>
         <Center>{center}</Center>

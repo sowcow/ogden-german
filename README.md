@@ -51,6 +51,7 @@ But this reverse way should also acheive that by casting more light on basic voc
 
 ## Todo
 
+- timer flickering on unpause after drawing
 - check if recording hit/miss misses the answer when timer is out on checking the answer stage
 - can the last screen lie about hits/misses? is it hiding some words?
 - to add pause for drawing?

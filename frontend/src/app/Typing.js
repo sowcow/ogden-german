@@ -4,12 +4,14 @@ import React, { useState, useRef } from 'react'
 
 import { JustInput } from './Word'
 import { animateParticles, distance, ending, useKeyboard } from './utility'
+import { useSetFinished } from './hooks/useFinished';
 import Answers from './Answers'
 import Drawable from './Drawable';
 import Layout from './Layout'
 import Particle from './Particle'
 import Timer from './Timer'
 import getSession from './getSession';
+import useDrawing from './hooks/useDrawing';
 
 let DURATION = 60
 
@@ -27,6 +29,7 @@ let INFO = [
   'Press «insert» to enter/exit drawing mode',
   'Press «delete» to delete last line',
   'The drawing will be associated with the current word',
+  'Entering the drawing mode is how you pouse the timer at this point',
 ]
 
 let A_LETTER = /^.$/
@@ -148,11 +151,16 @@ function Typing () {
 
   let timerRef = useRef()
 
+  let setFinished = useSetFinished()
+
   let onTimer = () => {
+    setFinished(true)
     setDone(true)
     let animation = animateParticles(particles, setParticles)
     animation()
   }
+
+  let [drawing, setDrawing] = useDrawing()
 
   let targetColor = done ? '#06c' : 'gray'
   let props = useSpring({
@@ -168,7 +176,10 @@ function Typing () {
   let rightness = isChecking ? isHit : null
   return (
     <>
-    <Drawable question={question.question} />
+      <Drawable
+        question={question.question}
+        drawing={drawing}
+      />
     <Layout
       done={done}
       rightness={rightness}
@@ -198,7 +209,12 @@ function Typing () {
       stats={
         <animated.div style={props}>
           <animated.div style={hideOnDone}>
-            <Timer ref={timerRef} durationSec={DURATION} onDone={onTimer} />
+            <Timer
+              ref={timerRef}
+              durationSec={DURATION}
+              onDone={onTimer}
+              paused={drawing}
+            />
           </animated.div>
           <div>
             {good} hit{ending(good, 's')}

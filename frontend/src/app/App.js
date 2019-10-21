@@ -1,6 +1,7 @@
 import { shuffle } from 'lodash'
 import React from 'react'
 
+import { ProvideFinished } from './hooks/useFinished';
 import Typing from './Typing'
 import getSession from './getSession';
 import questions from './data/questions.json'
@@ -12,7 +13,11 @@ function App () {
   }
   xs = shuffle(xs)
   getSession(xs).takeNextCard() // just starts everything
-  return <Typing questions={xs} />
+  return (
+    <ProvideFinished>
+      <Typing questions={xs} />
+    </ProvideFinished>
+  )
 }
 
 export default App
