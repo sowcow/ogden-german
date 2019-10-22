@@ -54,6 +54,7 @@ I may create a file for edits to be incorporated if there are propositions to ad
   * clearing current image
   * exporting images
   * importing images
+  * not using images at all
 
 ## Motivation
 
