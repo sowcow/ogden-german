@@ -12,7 +12,7 @@ I may create a file for edits to be incorporated if there are propositions to ad
 ## Status
 
 It is ready for use. There are fixes pending for small inconveniences.
-UI needs some looking into.
+UI needs some additional looking into but I like it implicit and minimal.
 
 - [X] Application part works as I need it
 - [X] Nice translations
