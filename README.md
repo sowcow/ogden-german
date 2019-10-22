@@ -20,6 +20,11 @@ UI needs some additional looking into but I like it implicit and minimal.
 - [X] Spaced repitition - simple system inspired by Leitner system
 - [X] Nice Example sentences
 
+## Motivation
+
+I want to get my german vocabulary recognition to some level.
+And I have a thing for writing such simple apps.
+
 ## Screenshots
 
 ![wrong-answer](/shots/wrong.png?raw=true)
@@ -55,11 +60,6 @@ UI needs some additional looking into but I like it implicit and minimal.
 ## Bugs
 
 - Drawings does not handle well browser window size changes so keep it same/maxed if you use the feature
-
-## Motivation
-
-Technically I want to get my german vocabulary recognition to some level.
-But this reverse way should also acheive that by casting more light on basic vocabulary gaps in a nice environment.
 
 ## Spaced Repitition
 
