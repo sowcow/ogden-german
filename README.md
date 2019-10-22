@@ -2,7 +2,7 @@
 
 Desktop in-browser offline app to practice typing ENG -> GER vocabulary translation.
 
-[:large_blue_diamond: Run it](https://github.com/sowcow/prank-player/releases)
+[:arrow_right: Open the app in the browser](https://sowcow.github.io/ogden-german/)
 
 Chill and simple process.
 
