@@ -18,7 +18,7 @@ UI needs some additional looking into but I like it implicit and minimal.
 - [X] Nice translations
 - [X] Images (you draw your own right on the page :grinning:)
 - [X] Spaced repitition - simple system inspired by Leitner system
-- [X] Nice Example sentences
+- [X] Nice example sentences
 
 ## Motivation
 
@@ -39,27 +39,22 @@ And I have a thing for writing such simple apps.
 - Type it in german.
 - See if you typed it right.
 - Your score reflects that.
-- Draw some images right on the screen if you want.
 - Hit escape when you are ready to finish.
 - Review words by hovering mouse above them on the final screen.
-
-## Features
-
-- The list of words is taken from Ogden's Basic English vocabulary (with omition of ~5 words).
-- Abundant list of translations has been automatically generated
-- Drawing images for words for yourself (pen pressure is not supported by browsers afaik)
-- Simple spaced repitition system
-- View example sentences and translations
-
-## Tradeoffs
-
-* The process may be less effective than the more demanding ones
-* Visual features make it not into accessibility
-* Requirement for the keyboard is a feature
+- Incorporate drawing and example sencences if it works for you.
 
 ## Bugs
 
 - Drawings does not handle well browser window size changes so keep it same/maxed if you use the feature
+
+## Other
+
+* The list of words is taken from Ogden's Basic English vocabulary (with omition of ~5 words).
+* Abundant list of translations has been automatically generated
+* Drawing images for words for yourself (pen pressure is not supported by browsers afaik)
+* The process may be less effective than the more demanding ones
+* Visual features make it not into accessibility
+* Requirement for the keyboard is a feature
 
 ## Spaced Repitition
 
