@@ -1,0 +1,32 @@
+task :default do
+  hints = load_items.map { |x| process_item x }
+  hints_data = Hash[hints.map { |x| [ x[:word], x[:examples] ] }]
+  save 'hints.json', hints_data
+  system 'cp hints.json ../../frontend/src/app/data/'
+end
+
+def save file, data
+  data = JSON.dump data
+  File.write file, data
+end
+
+def process_item item
+  examples = item['words']
+    .flat_map { |x| x['translations'] }
+    .flat_map { |x| x['examples'] }
+  {
+    word: item['query'],
+    examples: examples
+  }
+end
+
+def load_items
+  require 'json'
+  file = File.expand_path '../Downloads/node'
+  input = File.read file
+  input = JSON.load input
+
+  relevant = input.select { |x| x['type'] == 'translation' && !x['value']['ignore'] }
+  relevant.map! { |x| x['value'] }
+  relevant
+end
