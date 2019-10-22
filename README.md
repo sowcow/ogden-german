@@ -1,8 +1,8 @@
 # Ogden German
 
-Desktop in-browser offline app to practice typing ENG -> GER vocabulary translation.
-
 [:arrow_right: Open the app in the browser](https://sowcow.github.io/ogden-german/)
+
+Desktop in-browser offline app to practice typing ENG -> GER vocabulary translation.
 
 Chill and simple process.
 
