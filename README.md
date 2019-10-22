@@ -1,6 +1,8 @@
 # Ogden German
 
-Desktop in-browesr app to practice typing ENG -> GER vocabulary translation.
+Desktop in-browser offline app to practice typing ENG -> GER vocabulary translation.
+
+[:large_blue_diamond: Run it](https://github.com/sowcow/prank-player/releases)
 
 Chill and simple process.
 
@@ -23,6 +25,13 @@ I may create a file for edits to be incorporated if there are propositions to ad
 - Abundant list of translations has been automatically generated
 - Drawing images for words for yourself (pen pressure is not supported by browsers afaik)
 - Simple spaced repitition system
+- View example sentences and translations
+
+## Tradeoffs
+
+* The process may be less effective than the more demanding ones
+* Visual features make it not into accessibility
+* Requirement for the keyboard is a feature
 
 ## Bugs
 
@@ -42,9 +51,7 @@ I may create a file for edits to be incorporated if there are propositions to ad
 - [X] Very nice file with translations
 - [X] Images (you draw your own right on the page :lol:)
 - [X] Spaced repitition - simple system inspired by Leitner system
-- [ ] Example sentences??? - we shall see - HMMMMM
-  * check the file size if they all are in one file
-  * decide on how to store them: separate/opt-in/cache?
+- [X] Example sentences
 - [ ] Settings/menu - UNLIKELY
   * whether to use timer or not
   * drawing mode or not

@@ -7,6 +7,7 @@ import { animateParticles, distance, ending, useKeyboard } from './utility'
 import { useSetFinished } from './hooks/useFinished';
 import Answers from './Answers'
 import Drawable from './Drawable';
+import Hint from './Hint';
 import Layout from './Layout'
 import Particle from './Particle'
 import Timer from './Timer'
@@ -16,9 +17,10 @@ import useDrawing from './hooks/useDrawing';
 let DURATION = 60
 
 let INFO = [
+  'This info will disappear when you start typing',
   'Type a translation with enter when you are ready',
   'Press esc to see results of the session',
-  'If you want to start again — reload the page',
+  'If you want to start new session — reload the page',
   '---',
   '«ä» can be produced by typing «a:» or «a"»',
   '«ß» can be replaced with just «ss»',
@@ -27,6 +29,10 @@ let INFO = [
   'Press «insert» to enter/exit drawing mode',
   'Press «delete» to delete the last line',
   'The drawing will be associated with the current word',
+  '---',
+  '«PageUp/PageDown» is how you look into example sentences',
+  'Repeaded «PageUp» or «PageDown» gets you the next example',
+  'Alternating «PageUp» and «PageDown» shows you translations of the current example',
 ]
 
 let A_LETTER = /^.$/
@@ -193,17 +199,24 @@ function Typing () {
       done={done}
       rightness={rightness}
       info={started ? null : INFO}
-      center={particles.map((x, i) => (
-        <Particle
-          answers={x.answers}
-          x={x.x}
-          y={x.y}
-          hit={x.hit}
-          word={x.word}
-          key={i}
-          done={done}
-        />
-      ))}
+      center={
+        <>
+          <Hint question={question.question} />
+          {
+            particles.map((x, i) => (
+              <Particle
+                answers={x.answers}
+                x={x.x}
+                y={x.y}
+                hit={x.hit}
+                word={x.word}
+                key={i}
+                done={done}
+              />
+            ))
+          }
+        </>
+      }
       left={question.question}
       right={
         <>
