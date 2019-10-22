@@ -9,6 +9,25 @@ Chill and simple process.
 The dictionary used is great but not perfect.
 I may create a file for edits to be incorporated if there are propositions to add/fix specific translations.
 
+## Status
+
+It is ready for use. There are fixes pending for small inconveniences.
+UI needs some looking into.
+
+- [X] Application part works as I need it
+- [X] Nice translations
+- [X] Images (you draw your own right on the page :grinning:)
+- [X] Spaced repitition - simple system inspired by Leitner system
+- [X] Nice Example sentences
+
+## Screenshots
+
+![wrong-answer](/shots/wrong.png?raw=true)
+
+![right-answer](/shots/right.png?raw=true)
+
+![final-review](/shots/final.png?raw=true)
+
 ## Process
 
 - See a word in english.
@@ -37,32 +56,6 @@ I may create a file for edits to be incorporated if there are propositions to ad
 
 - Drawings does not handle well browser window size changes so keep it same/maxed if you use the feature
 
-## Screenshots
-
-![wrong-answer](/shots/wrong.png?raw=true)
-
-![right-answer](/shots/right.png?raw=true)
-
-![final-review](/shots/final.png?raw=true)
-
-## Status
-
-- [X] Application part working as I need it
-- [X] Very nice file with translations
-- [X] Images (you draw your own right on the page :lol:)
-- [X] Spaced repitition - simple system inspired by Leitner system
-- [X] Example sentences
-- [ ] Settings/menu - UNLIKELY
-  * whether to use timer or not
-  * drawing mode or not
-  * that "short" info about how to use it
-- [ ] Drawing menu - UNLIKELY
-  * color choice? or right click for the wheel?
-  * clearing current image
-  * exporting images
-  * importing images
-  * not using images at all
-
 ## Motivation
 
 Technically I want to get my german vocabulary recognition to some level.
@@ -75,6 +68,18 @@ But this reverse way should also acheive that by casting more light on basic voc
 1. You decide how often to perform sessions
 1. Wrongly answered words will haunt you
 1. Right answers will move words further into the next sessions so you do not see them for some time
+
+## Keyboard
+
+This info is also shown when you open the page.
+
+- PageUp - shows english translation of the example / shows the next example
+- PageDown - shows german translation of the example / shows the next example
+- Insert - toggle drawing mode
+- Delete - delete the last line while in the drawing mode
+- Enter - check the answer, get the next word
+- Esc - finish the session
+- Use `ss` and produce umlauts with `a:` or `a"`
 
 ## Note
 
@@ -101,3 +106,13 @@ But this reverse way should also acheive that by casting more light on basic voc
   * translations should be generateable easily but they
     are not complete and require manual handling by somebody interested anyway
   * forking it for a new language seems like an easy way but idk
+- Settings/menu - UNLIKELY
+  * whether to use timer or not
+  * drawing mode or not
+  * that "short" info about how to use it
+- Drawing menu - UNLIKELY
+  * color choice? or right click for the wheel?
+  * clearing current image
+  * exporting images
+  * importing images
+  * not using images at all

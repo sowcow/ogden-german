@@ -18,7 +18,8 @@ let DURATION = 60
 
 let INFO = [
   'This info will disappear when you start typing',
-  'Type a translation with enter when you are ready',
+  'Type a translation when you are ready',
+  'Press enter to check the answer and also to get the next word',
   'Press esc to see results of the session',
   'If you want to start new session — reload the page',
   '---',
